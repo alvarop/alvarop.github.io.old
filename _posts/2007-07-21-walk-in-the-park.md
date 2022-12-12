@@ -1,0 +1,12 @@
+---
+title: Walk in the Park
+categories:
+- russia
+- travel
+tags: []
+---
+Today was not very interesting, but it was not very boring either. After I woke up and had breakfast, I did some of my homework for class and decided to go out. While waiting for the bus, some old lady started speaking to me and making strange gestures with her hand. I told her I did not understand her, but she kept talking. Once I got on the bust, she followed, sat down, and started speaking to half the people on the bus, it was quite strange. After the bust ride, I ended up in a big shopping center. I walked around for a while and noticed 90% of the stores were womens clothing. I found a music/movie/books store and spent some time there. I bought a book and some discs. I also managed to make the cashier lady angry. The ATM only gave me 1000 ruble bills, and she kept asking if I had smaller ones, I said no a few times until she took it and walked away. She came back with my change and a not very happy face. Oh well, I can't make everyone happy... I then walked around some more trying to find the place where I entered so I could leave and ended up in a huge furniture store. I never realized how long the mall was, and the stupid furniture store was just as long. Once I found my way out, I bought a soda and headed back home.
+
+When I arrived, the grandma asked me where I had been and what I had in my hand. I told her I went to the store and bought a book and some disks. That wasn't enough information, she followed me into my room and asked to see exactly what I had bought. Now I just say I'm going outside, and not exactly where I am going. I doubt it will help though.
+
+After lunch, I watched part of a Russian soccer game on tv, talked to my parents on the computer, and decided I was bored again. I got on another bus and went to another shopping place I had not been to. This one was four stories tall (the other was three) but again, a bunch of female clothing stores. After seeing that, I got out and got on another bus, which took me close to the Kremlin. I walked around the park, bought some ice cream, walked over the river, walked back, walked some more, etc... Around 8:30pm I decided to head back. When I got in the bus, I saw one of the girls I met the a few weeks ago when I visited the English class. She was with a friend, so we didn't really talk, but it was nice to see someone I knew. Now I'm back home and probably going to sleep soon. Maybe tomorrow will be more eventful.
