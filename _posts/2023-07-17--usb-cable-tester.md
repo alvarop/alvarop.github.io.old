@@ -11,21 +11,21 @@ Fear no more!
 I’ve made a simple board to test most of the things!
 
 {% include image.html 
-	img="/images/usb_cable_tester/1.jpeg" 
+	img="images/usb_cable_tester/1.jpeg" 
 	title="USB Cable Tester v2.0 - Front"
 	caption="USB Cable Tester v2.0 - Front"
 	url="/images/usb_cable_tester/1.jpeg"
 %}
 
 {% include image.html 
-	img="/images/usb_cable_tester/2.jpeg" 
+	img="images/usb_cable_tester/2.jpeg" 
 	title="USB Cable Tester v2.0 - Back"
 	caption="USB Cable Tester v2.0 - Back"
 	url="/images/usb_cable_tester/2.jpeg"
 %}
 
 {% include image.html 
-	img="/images/usb_cable_tester/3.jpeg" 
+	img="images/usb_cable_tester/3.jpeg" 
 	title="USB Cable Tester v2.0 - Side"
 	caption="USB Cable Tester v2.0 - Side"
 	url="/images/usb_cable_tester/3.jpeg"
@@ -38,14 +38,14 @@ I’ve made a simple board to test most of the things!
 Connect your cable to both sides and the signal LEDs will light up if they are connected. Here’s an example of a USB2 cable and a thunderbolt 3 cable.
 
 {% include image.html 
-	img="/images/usb_cable_tester/4.jpeg" 
+	img="images/usb_cable_tester/4.jpeg" 
 	title="Testing a USB-C 2.0 Cable"
 	caption="Testing a USB-C 2.0 Cable"
 	url="/images/usb_cable_tester/4.jpeg"
 %}
 
 {% include image.html 
-	img="/images/usb_cable_tester/5.jpeg" 
+	img="images/usb_cable_tester/5.jpeg" 
 	title="Testing a Thunderbolt 3 Cable"
 	caption="Testing a Thunderbolt 3 Cable"
 	url="/images/usb_cable_tester/5.jpeg"
@@ -54,21 +54,21 @@ Connect your cable to both sides and the signal LEDs will light up if they are c
 Want to test a USB A to C cable? How about a USB A to Micro B? USB C to B? Mini B? You’ve got it!
 
 {% include image.html 
-	img="/images/usb_cable_tester/6.jpeg" 
+	img="images/usb_cable_tester/6.jpeg" 
 	title="Testing a USB A to C Cable"
 	caption="Testing a USB A to C Cable"
 	url="/images/usb_cable_tester/6.jpeg"
 %}
 
 {% include image.html 
-	img="/images/usb_cable_tester/7.jpeg" 
+	img="images/usb_cable_tester/7.jpeg" 
 	title="Testing a USB C to B Cable"
 	caption="Testing a USB C to B Cable"
 	url="/images/usb_cable_tester/7.jpeg"
 %}
 
 {% include image.html 
-	img="/images/usb_cable_tester/8.jpeg" 
+	img="images/usb_cable_tester/8.jpeg" 
 	title="Testing a USB A to Micro B Cable"
 	caption="Testing a USB A to Micro B Cable"
 	url="/images/usb_cable_tester/8.jpeg"
@@ -77,14 +77,14 @@ Want to test a USB A to C cable? How about a USB A to Micro B? USB C to B? Mini 
 Here’s what a the dreaded charge-only cables look like. I had to make my own since I had previously banished them from my lab! (These are the real reason I made this)
 
 {% include image.html 
-	img="/images/usb_cable_tester/9.jpeg" 
+	img="images/usb_cable_tester/9.jpeg" 
 	title="Testing a Charge-only Cable"
 	caption="Testing a Charge-only Cable"
 	url="/images/usb_cable_tester/9.jpeg"
 %}
 
 {% include image.html 
-	img="/images/usb_cable_tester/10.jpeg" 
+	img="images/usb_cable_tester/10.jpeg" 
 	title="Homemade Charge-only Cable"
 	caption="Homemade Charge-only Cable"
 	url="/images/usb_cable_tester/10.jpeg"
@@ -93,14 +93,14 @@ Here’s what a the dreaded charge-only cables look like. I had to make my own s
 But….What if my cable is too short!? We have that covered too 😂
 
 {% include image.html 
-	img="/images/usb_cable_tester/11.jpeg" 
+	img="images/usb_cable_tester/11.jpeg" 
 	title="Testing a short USB 4 Cable"
 	caption="Testing a short USB 4 Cable"
 	url="/images/usb_cable_tester/11.jpeg"
 %}
 
 {% include image.html 
-	img="/images/usb_cable_tester/12.jpeg" 
+	img="images/usb_cable_tester/12.jpeg" 
 	title="Testing a short USB 4 Cable (Part 2)"
 	caption="Testing a short USB 4 Cable (Part 2)"
 	url="/images/usb_cable_tester/12.jpeg"
