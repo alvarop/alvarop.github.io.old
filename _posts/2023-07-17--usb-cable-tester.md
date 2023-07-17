@@ -107,7 +107,7 @@ But….What if my cable is too short!? We have that covered too 😂
 %}
 
 ## How can I get one?!
-Like most of my projects, the files are available on [the github repo](https://t.co/mPsBSZfVSw) under an open hardware license.
+Like most of my projects, the files are available on [the github repo](https://github.com/alvarop/usb_c_cable_tester) under an open hardware license.
 
 If you want to make your own, I have instructions on ordering your own from JLCPCB here: https://github.com/alvarop/usb_c_cable_tester/blob/main/ORDERING.md
 
