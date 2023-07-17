@@ -35,6 +35,9 @@ github:
 twitter:
   username: alvaroprieto            # change to your twitter username
 
+instagram:
+  username: alvaroops
+
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
@@ -44,6 +47,7 @@ social:
     # The first element serves as the copyright owner's link
     - https://twitter.com/alvaroprieto      # change to your twitter homepage
     - https://github.com/alvarop       # change to your github homepage
+    - https://www.instagram.com/alvaroops
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
