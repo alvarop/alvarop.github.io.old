@@ -29,10 +29,10 @@ When Type-C came along, it arrived with two new ways of determining the amount o
 The USB-C specification has a nice table with all of the power delivery options.
 
 {% include image.html 
-    img="swd2usbc/SWD to USB-C_1.png" 
+    img="images/swd2usbc/SWD to USB-C_1.png" 
     title="Table4-2 from USB-C Specification"
     caption="Table4-2 from USB-C Specification"
-    url="/swd2usbc/SWD to USB-C_1.png"
+    url="/images/swd2usbc/SWD to USB-C_1.png"
 %}
 
 As described by the table, each mode of operation can be superseded by one of the newer ones. USB Type-C Current can provide up to 5V @ 3A.
@@ -42,17 +42,17 @@ Since we'll be talking about USB-C, I should briefly cover the cables/plugs and 
 Here are two tables showing the pinout of a Type-C receptacle and a Type-C Plug. Don't worry too much about what the signals are for yet.
 
 {% include image.html 
-    img="swd2usbc/SWD to USB-C_2.png" 
+    img="images/swd2usbc/SWD to USB-C_2.png" 
     title="Figure 2-1 from USB-C Spec - Receptacle Interface"
     caption="Figure 2-1 from USB-C Spec - Receptacle Interface"
-    url="/swd2usbc/SWD to USB-C_2.png"
+    url="/images/swd2usbc/SWD to USB-C_2.png"
 %}
 
 {% include image.html 
-    img="swd2usbc/SWD to USB-C_3.png" 
+    img="images/swd2usbc/SWD to USB-C_3.png" 
     title="Figure 2-2 from USB-C Spec - Plug Interface"
     caption="Figure 2-2 from USB-C Spec - Plug Interface"
-    url="/swd2usbc/SWD to USB-C_3.png"
+    url="/images/swd2usbc/SWD to USB-C_3.png"
 %}
 
 "Legacy" USB-C cables only had **Vbus**, **GND**, **D-**, and **D+**. Once USB 3.0 came along, it added the high speed signals **TX+**/**TX-** and **RX+**/**RX-**. Type-C has all of those and then some.
@@ -67,20 +67,20 @@ Here's a quick summary of how USB Type-C Current works. The device providing, or
 **Rd** is fixed at 5.1kΩ and **Rp** can change depending on the amount of power available. The figure below from the USB-C specification document shows an example.
 
 {% include image.html 
-    img="swd2usbc/SWD to USB-C_4.png" 
+    img="images/swd2usbc/SWD to USB-C_4.png" 
     title="Figure 4-34 from USB-C Spec - CC pulldown schematic"
     caption="Figure 4-34 from USB-C Spec - CC pulldown schematic"
-    url="/swd2usbc/SWD to USB-C_4.png"
+    url="/images/swd2usbc/SWD to USB-C_4.png"
 %}
 
 
 Depending on the source's pull up resistor (**Rp**) value, the source can advertise various charge currents. The table below describes the different resistor settings for each advertised source current.
 
 {% include image.html 
-    img="swd2usbc/SWD to USB-C_5.png" 
+    img="images/swd2usbc/SWD to USB-C_5.png" 
     title="USB-C Specification Table 4-24"
     caption="USB-C Specification Table 4-24"
-    url="/swd2usbc/SWD to USB-C_5.png"
+    url="/images/swd2usbc/SWD to USB-C_5.png"
 %}
 
 
@@ -93,10 +93,10 @@ Time to get to the "fun" bits! The [USB-C specification](https://www.usb.org/sit
 While in DAM, the following signals can be repurposed:
 
 {% include image.html 
-    img="swd2usbc/SWD to USB-C_6.png" 
+    img="images/swd2usbc/SWD to USB-C_6.png" 
     title="USB-C Specificatoin Figure B-2"
     caption="USB-C Specificatoin Figure B-2"
-    url="/swd2usbc/SWD to USB-C_6.png"
+    url="/images/swd2usbc/SWD to USB-C_6.png"
 %}
 
 
@@ -108,10 +108,10 @@ In order to use DAM, we need to have a USB-C plug (or custom cable) to connect b
 If the device is in DAM, how can the target tell how much charge current available? There's another table for that. It uses both **CC1** and **CC2**:
 
 {% include image.html 
-    img="swd2usbc/SWD to USB-C_7.png" 
+    img="images/swd2usbc/SWD to USB-C_7.png" 
     title="USB-C Specification Table B-2"
     caption="USB-C Specification Table B-2"
-    url="/swd2usbc/SWD to USB-C_7.png"
+    url="/images/swd2usbc/SWD to USB-C_7.png"
 %}
 
 
@@ -136,10 +136,10 @@ This pinout means that the connector is not reversible. Using the TX and RX line
 In order to do this "properly", we can use a two comparators(op-amps in my case), an **AND** gate, and a switch ([TMUX1511](https://www.ti.com/product/TMUX1511), in this case). The comparators detect when both CC1/CC2 are pulled up. If both are, the **AND** gate enables the switches to connect all the signals.
 
 {% include image.html 
-    img="swd2usbc/SWD to USB-C_8.png" 
+    img="images/swd2usbc/SWD to USB-C_8.png" 
     title="Comparator/Mux Diagram"
     caption="Comparator/Mux Diagram"
-    url="/swd2usbc/SWD to USB-C_8.png"
+    url="/images/swd2usbc/SWD to USB-C_8.png"
 %}
 
 
@@ -150,10 +150,10 @@ The comparators are needed because the **CCx** pull-up might be as high as 56kΩ
 In order to test all this, I first used a USB-C plug breakout board with a few wires 😬. On the other side, I hooked up the circuit mentioned above. (I can't show the main circuit, unfortunately, since it was from my previous employer). The setup worked though! Time to make some custom boards :D
 
 {% include image.html 
-    img="swd2usbc/SWD to USB-C_9.jpg" 
+    img="images/swd2usbc/SWD to USB-C_9.jpg" 
     title="USB-C Plug Breakout Board and Mux/Comparator Test Setup"
     caption="USB-C Plug Breakout Board and Mux/Comparator Test Setup"
-    url="/swd2usbc/SWD to USB-C_9.jpg"
+    url="/images/swd2usbc/SWD to USB-C_9.jpg"
 %}
 
 
@@ -162,10 +162,10 @@ I decided to make a board that passes through power and USB, but hijacks the **C
 I used the wrong footprint for the attiny24a 🤦‍♂️. I ended up hard-wiring the CC resistors for the and it worked :D.
 
 {% include image.html 
-    img="swd2usbc/SWD to USB-C_10.jpg" 
+    img="images/swd2usbc/SWD to USB-C_10.jpg" 
     title="SWD to USB-C v1.0"
     caption="SWD to USB-C v1.0"
-    url="/swd2usbc/SWD to USB-C_10.jpg"
+    url="/images/swd2usbc/SWD to USB-C_10.jpg"
 %}
 
 
@@ -174,30 +174,30 @@ Later on, I updated the design to fix the issues. It used the **SBU1**/**SBU2** 
 The only problem was... I had to program the attiny24 somehowi!
 
 {% include image.html 
-    img="swd2usbc/SWD to USB-C_11.jpg" 
+    img="images/swd2usbc/SWD to USB-C_11.jpg" 
     title="SWD to USB-C v1.1"
     caption="SWD to USB-C v1.1"
-    url="/swd2usbc/SWD to USB-C_11.jpg"
+    url="/images/swd2usbc/SWD to USB-C_11.jpg"
 %}
 
 
 So I made another programmer over USB-C 😂 This one used SPI instead of SWD. I also got the MISO/MOSI lines flipped, so had to use some jumper wires to program.
 
 {% include image.html 
-    img="swd2usbc/SWD to USB-C_12.jpg" 
+    img="images/swd2usbc/SWD to USB-C_12.jpg" 
     title="ATTiny Programmer Over USB-C Connected to SWD2USBC Board"
     caption="ATTiny Programmer Over USB-C Connected to SWD2USBC Board"
-    url="/swd2usbc/SWD to USB-C_12.jpg"
+    url="/images/swd2usbc/SWD to USB-C_12.jpg"
 %}
 
 
 I decided to make a test target with all the features mentioned above. It's just an STM32L4 with USB and a couple of LEDs (along with all the CCx detection fun). You can see how the LED is red when it's plugged in backwards. After much pain soldering on those USB-C connectors, it all worked!
 
 {% include image.html 
-    img="swd2usbc/SWD to USB-C_13.jpg" 
+    img="images/swd2usbc/SWD to USB-C_13.jpg" 
     title="SWD over USB-C Sample Target v1.1"
     caption="SWD over USB-C Sample Target v1.1"
-    url="/swd2usbc/SWD to USB-C_13.jpg"
+    url="/images/swd2usbc/SWD to USB-C_13.jpg"
 %}
 
 ## New Designs
@@ -205,30 +205,30 @@ I decided to make a test target with all the features mentioned above. It's just
 I re-designed the board to be more easily produced and hopefully allow for a case at some point. This was also the first time I used [PCBWay](https://www.pcbway.com/) for assembly, which was a neat.
 
 {% include image.html 
-    img="swd2usbc/SWD to USB-C_14.jpg" 
+    img="images/swd2usbc/SWD to USB-C_14.jpg" 
     title="SWD2USBC v1.6"
     caption="SWD2USBC v1.6"
-    url="/swd2usbc/SWD to USB-C_14.jpg"
+    url="/images/swd2usbc/SWD to USB-C_14.jpg"
 %}
 
 
 They did the panelization, and it came out fairly well. I screwed up my BOM so I had to swap a couple of resistors around, but otherwise they worked great!
 
 {% include image.html 
-    img="swd2usbc/SWD to USB-C_15.jpg" 
+    img="images/swd2usbc/SWD to USB-C_15.jpg" 
     title="Panelized (and reworked) Boards"
     caption="Panelized (and reworked) Boards"
-    url="/swd2usbc/SWD to USB-C_15.jpg"
+    url="/images/swd2usbc/SWD to USB-C_15.jpg"
 %}
 
 
 Here’s a photo of a few generations. The first three were hand assembled by me 😬. USB-C plugs are no fun to solder.
 
 {% include image.html 
-    img="swd2usbc/SWD to USB-C_16.jpg" 
+    img="images/swd2usbc/SWD to USB-C_16.jpg" 
     title="Four Generations of SWD2USBC Devices"
     caption="Four Generations of SWD2USBC Devices"
-    url="/swd2usbc/SWD to USB-C_16.jpg"
+    url="/images/swd2usbc/SWD to USB-C_16.jpg"
 %}
 
 ### Possible Improvements
@@ -236,30 +236,30 @@ Here’s a photo of a few generations. The first three were hand assembled by me
 So what’s next? First, I made 20 of these. We used them at work successfully for months! That being said, I was already thinking of ways to improve the design.
 
 {% include image.html 
-    img="swd2usbc/SWD to USB-C_17.jpg" 
+    img="images/swd2usbc/SWD to USB-C_17.jpg" 
     title="Device In Use"
     caption="Device In Use"
-    url="/swd2usbc/SWD to USB-C_17.jpg"
+    url="/images/swd2usbc/SWD to USB-C_17.jpg"
 %}
 
 
 Due to the form factor, quite a bit of stress is placed on that plug from the USB cable pulling on it. We had several USB-C plugs break off due to cables puling the wrong way.
 
 {% include image.html 
-    img="swd2usbc/SWD to USB-C_18.jpg" 
+    img="images/swd2usbc/SWD to USB-C_18.jpg" 
     title="USB2SWD In Use (No USB Cable Connected)"
     caption="USB2SWD In Use (No USB Cable Connected)"
-    url="/swd2usbc/SWD to USB-C_18.jpg"
+    url="/images/swd2usbc/SWD to USB-C_18.jpg"
 %}
 
 
 Ideally, I’d like to switch to the form factor below, where the main PCB and USB receptacle are on one side, and a USB cable with the plug is attached to it. This way, it would be much more durable, and I can put things like a CPLD or FPGA to do fun thing on the larger PCB.
 
 {% include image.html 
-    img="swd2usbc/SWD to USB-C_19.jpg" 
+    img="images/swd2usbc/SWD to USB-C_19.jpg" 
     title="USB-C SD Card Adapter and SWD2USBC"
     caption="USB-C SD Card Adapter and SWD2USBC"
-    url="/swd2usbc/SWD to USB-C_19.jpg"
+    url="/images/swd2usbc/SWD to USB-C_19.jpg"
 %}
 
 ### Teardown
@@ -267,30 +267,30 @@ Ideally, I’d like to switch to the form factor below, where the main PCB and U
 I had no idea how they make these, so I decided to take a look 😅. Removing one side was fairly easy. Seems like a pretty neat way to attach the USB cable.
 
 {% include image.html 
-    img="swd2usbc/SWD to USB-C_20.jpg" 
+    img="images/swd2usbc/SWD to USB-C_20.jpg" 
     title="Teardown of USB-C SD Card Adapter - PCB Side"
     caption="Teardown of USB-C SD Card Adapter - PCB Side"
-    url="/swd2usbc/SWD to USB-C_20.jpg"
+    url="/images/swd2usbc/SWD to USB-C_20.jpg"
 %}
 
 
 Removing the other end was much more destructive. I had to rip apart the metal case, cut the molded plastic, then remove the second metal shield.
 
 {% include image.html 
-    img="swd2usbc/SWD to USB-C_21.jpg" 
+    img="images/swd2usbc/SWD to USB-C_21.jpg" 
     title="Teardown of USBC SD Card Adapter - Plug Side"
     caption="Teardown of USBC SD Card Adapter - Plug Side"
-    url="/swd2usbc/SWD to USB-C_21.jpg"
+    url="/images/swd2usbc/SWD to USB-C_21.jpg"
 %}
 
 
 It’s a mini PCB as expected. There were many more layers of tape/plastic/insulation than I expected. They were even nice enough to label the pins!
 
 {% include image.html 
-    img="swd2usbc/SWD to USB-C_22.jpg" 
+    img="images/swd2usbc/SWD to USB-C_22.jpg" 
     title="USB-C Plug PCB to Cable Interface"
     caption="USB-C Plug PCB to Cable Interface"
-    url="/swd2usbc/SWD to USB-C_22.jpg"
+    url="/images/swd2usbc/SWD to USB-C_22.jpg"
 %}
 
 
@@ -311,20 +311,20 @@ It is also fair to mention that SWD over USB-C does require a full 24 pin USB-C 
 Since manufacturing devices with USB-C plugs and/or custom cables is a pain, I decided to re-design the board entirely. This design has two USB-C connectors and needs a USB 3.0 or Thunderbolt compatible USB-C cable to work.
 
 {% include image.html 
-    img="swd2usbc/SWD to USB-C_23.jpg" 
+    img="images/swd2usbc/SWD to USB-C_23.jpg" 
     title="SWD2USB-C Basic - Early Edition"
     caption="SWD2USB-C Basic - Early Edition"
-    url="/swd2usbc/SWD to USB-C_23.jpg"
+    url="/images/swd2usbc/SWD to USB-C_23.jpg"
 %}
 
 
 This allows for a more robust (and less expensive) adapter board. Having said that, this breaks DAM compatibility. Since no USB-C cable has both **CC1** _and_ **CC2** lines, the target cannot use the switch to gate the debug signals. This also means the source current detection must use the non DAM, single CC line, mode.
 
 {% include image.html 
-    img="swd2usbc/SWD to USB-C_24.jpg" 
+    img="images/swd2usbc/SWD to USB-C_24.jpg" 
     title="SWD2USBC Basic Actual Example"
     caption="SWD2USBC Basic Actual Example"
-    url="/swd2usbc/SWD to USB-C_24.jpg"
+    url="/images/swd2usbc/SWD to USB-C_24.jpg"
 %}
 
 
@@ -333,20 +333,20 @@ Since we no longer have to do the source current detection, there's no need for 
 Below is the schematic for the final version:
 
 {% include image.html 
-    img="swd2usbc/SWD to USB-C_25.png" 
+    img="images/swd2usbc/SWD to USB-C_25.png" 
     title="Schematic Screenshot for v4.0"
     caption="Schematic Screenshot for v4.0"
-    url="/swd2usbc/SWD to USB-C_25.png"
+    url="/images/swd2usbc/SWD to USB-C_25.png"
 %}
 
 
 And a photo (this is v4.0). All components are on the same side, further simplifying the design.
 
 {% include image.html 
-    img="swd2usbc/SWD to USB-C_26.jpg" 
+    img="images/swd2usbc/SWD to USB-C_26.jpg" 
     title="SWD2USBC v4.0"
     caption="SWD2USBC v4.0"
-    url="/swd2usbc/SWD to USB-C_26.jpg"
+    url="/images/swd2usbc/SWD to USB-C_26.jpg"
 %}
 
 ### Cable Crossover
@@ -358,10 +358,10 @@ That's when I re-designed the adapter to use the correct lines and we had to red
 Here's the table Matthias sent explaining the crossovers nicely (Note that **SBU1**/**SBU2** also get swapped):
 
 {% include image.html 
-    img="swd2usbc/SWD to USB-C_27.png" 
+    img="images/swd2usbc/SWD to USB-C_27.png" 
     title="Cable Crossover Table Provided by Matthias"
     caption="Cable Crossover Table Provided by Matthias"
-    url="/swd2usbc/SWD to USB-C_27.png"
+    url="/images/swd2usbc/SWD to USB-C_27.png"
 %}
 
 
@@ -375,20 +375,20 @@ Since I don't want to have to do this again, I decided to re-design and re-test 
 All of the files for this project can be found in the [swd2usbc Github Repo](https://github.com/alvarop/swd2usbc). All PCB's can be easily ordered from [JLCPCB](https://jlcpcb.com/). I added LCSC part numbers for everything in [KiCad](https://www.kicad.org/).
 
 {% include image.html 
-    img="swd2usbc/SWD to USB-C_28.jpg" 
+    img="images/swd2usbc/SWD to USB-C_28.jpg" 
     title="SWD2USBC and Sample Targets (Normal and Basic)"
     caption="SWD2USBC and Sample Targets (Normal and Basic)"
-    url="/swd2usbc/SWD to USB-C_28.jpg"
+    url="/images/swd2usbc/SWD to USB-C_28.jpg"
 %}
 
 
 The examples consist of the following:
 ### SWD2USBC
 {% include image.html 
-    img="swd2usbc/SWD to USB-C_29.png" 
+    img="images/swd2usbc/SWD to USB-C_29.png" 
     title="Renders of SWD2USBC v5.1"
     caption="Renders of SWD2USBC v5.1"
-    url="/swd2usbc/SWD to USB-C_29.png"
+    url="/images/swd2usbc/SWD to USB-C_29.png"
 %}
 
 
@@ -399,20 +399,20 @@ The ATTiny firmware doesn't do much. It reads the voltage on the **CC1**/**CC2**
 
 ### SWD2USBC Basic
 {% include image.html 
-    img="swd2usbc/SWD to USB-C_30.png" 
+    img="images/swd2usbc/SWD to USB-C_30.png" 
     title="Renders of SWD2USBC Basic v4.1"
     caption="Renders of SWD2USBC Basic v4.1"
-    url="/swd2usbc/SWD to USB-C_30.png"
+    url="/images/swd2usbc/SWD to USB-C_30.png"
 %}
 
 Simple adapter with no Debug Accessory Mode. Assumes target SWD lines wired up directly to TX1/2 as listed above. Requires USB3/Thunderbolt C to C cable to connect to target. Use this with the [Sample Target Basic](#Sample%20Target%20Basic).
 
 ### Sample Target 
 {% include image.html 
-    img="swd2usbc/SWD to USB-C_31.png" 
+    img="images/swd2usbc/SWD to USB-C_31.png" 
     title="Renders of Sample Target v1.1"
     caption="Renders of Sample Target v1.1"
-    url="/swd2usbc/SWD to USB-C_31.png"
+    url="/images/swd2usbc/SWD to USB-C_31.png"
 %}
 
 
@@ -427,10 +427,10 @@ The charge current is printed out over UART, but it is also displayed using the 
 * **Other/Error** - Both LED1 (D1) and LED2 (D2) alternating blink
 ### Sample Target Basic
 {% include image.html 
-    img="swd2usbc/SWD to USB-C_32.png" 
+    img="images/swd2usbc/SWD to USB-C_32.png" 
     title="Renders of Sample Target (Basic) v1.1"
     caption="Renders of Sample Target (Basic) v1.1"
-    url="/swd2usbc/SWD to USB-C_32.png"
+    url="/images/swd2usbc/SWD to USB-C_32.png"
 %}
 
 
@@ -440,10 +440,10 @@ Basic example target. Similar to the sample target above, but does not include a
 Simple adapter PCB to connect the AVRISP V2 connector to USB-C to program the ATTiny in the SWD2USBC device.
 
 {% include image.html 
-    img="swd2usbc/SWD to USB-C_33.jpg" 
+    img="images/swd2usbc/SWD to USB-C_33.jpg" 
     title="SWD2USBC ATTiny Programmer Adapter"
     caption="SWD2USBC ATTiny Programmer Adapter"
-    url="/swd2usbc/SWD to USB-C_33.jpg"
+    url="/images/swd2usbc/SWD to USB-C_33.jpg"
 %}
 
 
@@ -452,10 +452,10 @@ Here are some examples:
 #### Sample Target Connected to 3A capable port
 The extra wires you see are the CC-lines going to the RP2040's ADC's. I forgot to include them in this revision but have fixed it in the updated files.
 {% include image.html 
-    img="swd2usbc/SWD to USB-C_34.jpg" 
+    img="images/swd2usbc/SWD to USB-C_34.jpg" 
     title="SWD2USBC Sample Target Example"
     caption="SWD2USBC Sample Target Example"
-    url="/swd2usbc/SWD to USB-C_34.jpg"
+    url="/images/swd2usbc/SWD to USB-C_34.jpg"
 %}
 
 
@@ -463,19 +463,19 @@ The extra wires you see are the CC-lines going to the RP2040's ADC's. I forgot t
 
 Properly oriented connection.
 {% include image.html 
-    img="swd2usbc/SWD to USB-C_35.jpg" 
+    img="images/swd2usbc/SWD to USB-C_35.jpg" 
     title="SWD2USBC Properly Attached to Sample Target"
     caption="SWD2USBC Properly Attached to Sample Target"
-    url="/swd2usbc/SWD to USB-C_35.jpg"
+    url="/images/swd2usbc/SWD to USB-C_35.jpg"
 %}
 
 
 Reversed connection (red/error LED lit up on SWD2USBC)
 {% include image.html 
-    img="swd2usbc/SWD to USB-C_36.jpg" 
+    img="images/swd2usbc/SWD to USB-C_36.jpg" 
     title="SWD2USBC Improperly Attached to Sample Target"
     caption="SWD2USBC Improperly Attached to Sample Target"
-    url="/swd2usbc/SWD to USB-C_36.jpg"
+    url="/images/swd2usbc/SWD to USB-C_36.jpg"
 %}
 
 
@@ -484,19 +484,19 @@ Reversed connection (red/error LED lit up on SWD2USBC)
 Here's a complete setup using a [Black Magic Probe](https://black-magic.org/) to attach to the RP2040 through USBC
 
 {% include image.html 
-    img="swd2usbc/SWD to USB-C_37.jpg" 
+    img="images/swd2usbc/SWD to USB-C_37.jpg" 
     title="BlackMagic Probe Connected to Sample Target Over SWD2USB C"
     caption="BlackMagic Probe Connected to Sample Target Over SWD2USB C"
-    url="/swd2usbc/SWD to USB-C_37.jpg"
+    url="/images/swd2usbc/SWD to USB-C_37.jpg"
 %}
 
 
 And the GDB session:
 {% include image.html 
-    img="swd2usbc/SWD to USB-C_38.png" 
+    img="images/swd2usbc/SWD to USB-C_38.png" 
     title="GDB Screenshot of Attached Target"
     caption="GDB Screenshot of Attached Target"
-    url="/swd2usbc/SWD to USB-C_38.png"
+    url="/images/swd2usbc/SWD to USB-C_38.png"
 %}
 
 # Conclusions
