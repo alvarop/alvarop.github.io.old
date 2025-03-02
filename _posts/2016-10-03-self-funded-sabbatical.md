@@ -32,13 +32,13 @@ I will likely write detailed posts about certain parts of the sabbatical someday
             img="images/sabbatical/1.jpg"
             title="Maker Faire!"
             caption="Maker Faire!!"
-            url="https://alvarop.com/images/sabbatical/1.jpg" %}
+            url="/images/sabbatical/1.jpg" %}
 - My parents came to visit and we drove down to Big Sur, Carmel, and Monterey
 {% include image.html
             img="images/sabbatical/2.jpg"
             title="Big Sur"
             caption="Big Sur"
-            url="https://alvarop.com/images/sabbatical/2.jpg" %}
+            url="/images/sabbatical/2.jpg" %}
 
 ### June
 
@@ -48,7 +48,7 @@ I will likely write detailed posts about certain parts of the sabbatical someday
             img="images/sabbatical/4.jpg"
             title="Space Shuttle in LA"
             caption="Space Shuttle in LA"
-            url="https://alvarop.com/images/sabbatical/4.jpg" %}
+            url="/images/sabbatical/4.jpg" %}
 - Gave away/sold a lot of my stuff (in preparation for moving to a smaller place)
 
 ### July
@@ -58,21 +58,21 @@ I will likely write detailed posts about certain parts of the sabbatical someday
             img="images/sabbatical/5.jpg"
             title="Colorado"
             caption="Colorado"
-            url="https://alvarop.com/images/sabbatical/5.jpg" %}
+            url="/images/sabbatical/5.jpg" %}
 
 - (Insert various hikes, movies, lunches, and dinners with friends here)
 {% include image.html
             img="images/sabbatical/6.jpg"
             title="Hikes!"
             caption="Hikes!"
-            url="https://alvarop.com/images/sabbatical/6.jpg" %}
+            url="/images/sabbatical/6.jpg" %}
 
 - Surprised my mom in Miami for her birthday (And ran into one of my favorite high school teachers on the plane!)
 {% include image.html
             img="images/sabbatical/7.jpg"
             title="Birthday Mom"
             caption="Birthday Mom"
-            url="https://alvarop.com/images/sabbatical/7.jpg" %}
+            url="/images/sabbatical/7.jpg" %}
 - Moved out of old apartment
 - Spent an unexpected day in Dallas due to some medical problems on an airplane
 - Visited friends in NYC
@@ -80,14 +80,14 @@ I will likely write detailed posts about certain parts of the sabbatical someday
             img="images/sabbatical/8.jpg"
             title="NYC"
             caption="NYC"
-            url="https://alvarop.com/images/sabbatical/8.jpg" %}
+            url="/images/sabbatical/8.jpg" %}
 - Visited friends in Rochester
 - Went to Niagara Falls to get my GlobalEntry access
 {% include image.html
             img="images/sabbatical/10.jpg"
             title="Niagara Falls"
             caption="Niagara Falls"
-            url="https://alvarop.com/images/sabbatical/10.jpg" %}
+            url="/images/sabbatical/10.jpg" %}
 - Visited friends in Boston
 
 ### August
@@ -97,37 +97,37 @@ I will likely write detailed posts about certain parts of the sabbatical someday
             img="images/sabbatical/11.jpg"
             title="DEFCON Badge"
             caption="DEFCON Badge"
-            url="https://alvarop.com/images/sabbatical/11.jpg" %}
+            url="/images/sabbatical/11.jpg" %}
 - Visited friends in Dublin, Ireland
 {% include image.html
             img="images/sabbatical/9.jpg"
             title="Paddle boarding in Dublin!"
             caption="Paddle boarding in Dublin!"
-            url="https://alvarop.com/images/sabbatical/9.jpg" %}
+            url="/images/sabbatical/9.jpg" %}
 - Visited friends in London, Leicester, and Brighton in the UK
 {% include image.html
             img="images/sabbatical/12.jpg"
             title="London"
             caption="London"
-            url="https://alvarop.com/images/sabbatical/12.jpg" %}
+            url="/images/sabbatical/12.jpg" %}
 - Finally made it to Almaty, Kazakhstan after telling friends I’d visit for years
 {% include image.html
             img="images/sabbatical/13.jpg"
             title="Kazakhstan"
             caption="Kazakhstan"
-            url="https://alvarop.com/images/sabbatical/13.jpg" %}
+            url="/images/sabbatical/13.jpg" %}
 - Spent a few days in Thailand on my own and made some new friends
 {% include image.html
             img="images/sabbatical/14.jpg"
             title="Thailand!"
             caption="Thailand!"
-            url="https://alvarop.com/images/sabbatical/14.jpg" %}
+            url="/images/sabbatical/14.jpg" %}
 - Stopped by Japan on the way back for nowhere nearly enough time
 {% include image.html
             img="images/sabbatical/15.jpg"
             title="Osaka, Japan"
             caption="Osaka, Japan"
-            url="https://alvarop.com/images/sabbatical/15.jpg" %}
+            url="/images/sabbatical/15.jpg" %}
 
 ### September
 
@@ -137,7 +137,7 @@ I will likely write detailed posts about certain parts of the sabbatical someday
             img="images/sabbatical/16.jpg"
             title="Near Jasper, Alberta"
             caption="Near Jasper, Alberta"
-            url="https://alvarop.com/images/sabbatical/16.jpg" %}
+            url="/images/sabbatical/16.jpg" %}
 
 Overall I had a fantastic time on my “sabbatical”. I was able to spend some much needed time to catch up with many (not all, unfortunately) friends, take time to think more about what I want to be doing, and flew around the world for the first time. I would have preferred this had happened under different circumstances, but I’m glad it happened either way. This Thursday I’ll be flying to Portland to attend the [Open Hardware Summit][3] and visit even more friends. It will be my last trip on this sabbatical before starting a new job. :D
 

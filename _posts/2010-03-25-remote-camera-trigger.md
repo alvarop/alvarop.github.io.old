@@ -13,7 +13,7 @@ Here are some details...
             img="images/blgr/s320/IMG_0765.jpg"
             title=""
             caption=""
-            url="https://alvarop.com/images/blgr/IMG_0765.jpg" %}
+            url="/images/blgr/IMG_0765.jpg" %}
 
 Opening the HP camera was more complicated than I expected. I had to remove about 15 screws, disconnect several ribbon-cables, and use more force than I am comfortable with with circuit boards. Eventually I got to the shutter button.
 
@@ -21,7 +21,7 @@ Opening the HP camera was more complicated than I expected. I had to remove abou
             img="images/blgr/s320/IMG_0766.jpg"
             title=""
             caption=""
-            url="https://alvarop.com/images/blgr/IMG_0766.jpg" %}
+            url="/images/blgr/IMG_0766.jpg" %}
 
 The shutter button has two different pressing modes. When you press the button down lightly, the camera focuses, and once you press it all the way down, it takes the picture.  I used my multimeter to figure out which pins did what. I figured out that there one pin is connected to ground, the second to the focus trigger and the third to the shutter trigger.
 
@@ -29,7 +29,7 @@ The shutter button has two different pressing modes. When you press the button d
             img="images/blgr/s320/IMG_0769.jpg"
             title=""
             caption=""
-            url="https://alvarop.com/images/blgr/IMG_0769.jpg" %}
+            url="/images/blgr/IMG_0769.jpg" %}
 
 Once I soldered some very thin wires to the button pins I spent some time putting the camera back together. I had to make a small hole in the top so the wires wouldn't be cut by the front cover.
 
@@ -37,7 +37,7 @@ Once I soldered some very thin wires to the button pins I spent some time puttin
             img="images/blgr/s320/IMG_0777.jpg"
             title=""
             caption=""
-            url="https://alvarop.com/images/blgr/IMG_0777.jpg" %}
+            url="/images/blgr/IMG_0777.jpg" %}
 
 Once I closed it, I soldered the wires to a 2.5mm female stereo connector. This is also used by the Canon DSLRs, so I figured it was a good idea to use it, since I'm planning to upgrade. I also used some heat-shrink tube to protect the tiny wires from breaking too easily.
 
@@ -45,7 +45,7 @@ Once I closed it, I soldered the wires to a 2.5mm female stereo connector. This 
             img="images/blgr/s320/IMG_0781.jpg"
             title=""
             caption=""
-            url="https://alvarop.com/images/blgr/IMG_0781.jpg" %}
+            url="/images/blgr/IMG_0781.jpg" %}
 
 After the camera was all set, I made a small circuit to trigger the camera. I used an MCT6 optocoupler from Fairchild Semiconductors to isolate the camera from the rest of the circuit. I then connected two button/switches that I found lying around, two resistors, and two LED's to show when each is enabled. The bottom cable assembly with three wires coming out is a 2.5mm male stereo jack that connects to the camera. The left red/white wires come from a homemade 5V power supply.
 
@@ -53,7 +53,7 @@ After the camera was all set, I made a small circuit to trigger the camera. I us
             img="images/blgr/s320/IMG_0780.jpg"
             title=""
             caption=""
-            url="https://alvarop.com/images/blgr/IMG_0780.jpg" %}
+            url="/images/blgr/IMG_0780.jpg" %}
 
 The full setup can be seen here. The circuit on the right is just a 5V regulator with some filtering capacitors I use for various projects.
 
@@ -69,6 +69,6 @@ This is the picture that was taken while making the video. The camera in the bac
             img="images/blgr/s320/HPIM2978.jpg"
             title=""
             caption=""
-            url="https://alvarop.com/images/blgr/HPIM2978.jpg" %}
+            url="/images/blgr/HPIM2978.jpg" %}
 
 Thanks to <a href="http://als-project.blogspot.com/2009/03/trigger-time.html">http://als-project.blogspot.com/2009/03/trigger-time.html</a> for the pin-out for the canon trigger.

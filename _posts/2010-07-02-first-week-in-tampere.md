@@ -29,5 +29,5 @@ On Saturday, I went walking around the local public market and found a few shopp
             img="images/blgr/s400/IMG_1397.JPG"
             title="Photo of part of the city from the top of the tower at Pyynikki."
             caption="Photo of part of the city from the top of the tower at Pyynikki."
-            url="https://alvarop.com/images/blgr/IMG_1397.JPG" %}
+            url="/images/blgr/IMG_1397.JPG" %}
 </div>

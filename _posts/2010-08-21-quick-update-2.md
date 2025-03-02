@@ -8,7 +8,7 @@ tags: []
             img="images/blgr/IMG_2408.jpg"
             title="blah"
             caption="blah"
-            url="https://alvarop.com/images/blgr/IMG_2408.jpg" %}
+            url="/images/blgr/IMG_2408.jpg" %}
 
 I am writing this in an internet cafe in Oslo...
 
@@ -22,4 +22,4 @@ Running out of internet time... so here are two pictures to start.
             img="images/blgr/IMG_2449.jpg"
             title="bleh"
             caption="bleh"
-            url="https://alvarop.com/images/blgr/IMG_2449.jpg" %}
+            url="/images/blgr/IMG_2449.jpg" %}

@@ -24,7 +24,7 @@ Since I had been working with BLE devices on other projects, the first board I m
             img="images/weather/ble-board.jpg"
             title="First BLE Boards"
             caption="First BLE Boards"
-            url="https://alvarop.com/images/weather/ble-board.jpg" %}
+            url="/images/weather/ble-board.jpg" %}
 
 ## Second Try
 After not working on the project for almost a year, I told myself I'd get something working over the winter break. I decided not to over-optimize from the start and **just get something working. Outside.**
@@ -40,7 +40,7 @@ After playing with the Nucleo board and getting a mess of cables going, I made a
             img="images/weather/breakout-1.jpg"
             title="Weather Breakout v0.1"
             caption="Weather Breakout v0.1"
-            url="https://alvarop.com/images/weather/breakout-1.jpg" %}
+            url="/images/weather/breakout-1.jpg" %}
 
 This board let me do a great deal of FW work, as well as get a rough idea of the overall power consumption of the device.
 
@@ -53,7 +53,7 @@ I found a huge [Bud Industries NBF-32026 ABS Case](https://www.amazon.com/gp/pro
             img="images/weather/enclosure-1.jpg"
             title="Inside First Enclosure"
             caption="Inside First Enclosure"
-            url="https://alvarop.com/images/weather/enclosure-1.jpg" %}
+            url="/images/weather/enclosure-1.jpg" %}
 
 I had no idea how to go about drilling huge holes in the case, but I found a video by [bigclivedotcom](https://www.youtube.com/channel/UCtM5z2gkrGRuWd0JQMx76qA) about [using step drill bits on plastic](https://www.youtube.com/watch?v=1ETgVzXv5wU), so I decided to give them a try. The step drill bit worked great! I had previously tried using a really wide drill bit and was unsuccessful.
 
@@ -61,7 +61,7 @@ I had no idea how to go about drilling huge holes in the case, but I found a vid
             img="images/weather/step-drill-bit.jpg"
             title="Step Drill Bit"
             caption="Step Drill Bit"
-            url="https://alvarop.com/images/weather/step-drill-bit.jpg" %}
+            url="/images/weather/step-drill-bit.jpg" %}
 
 Unfortunately, where I currently live, there's no direct sunlight in the patio during wintertime. This means that even with the huge panel, I still had to manually recharge the battery every week or so. Either way, it let me do FW and backend development (computer receiving and saving the data).
 
@@ -69,7 +69,7 @@ Unfortunately, where I currently live, there's no direct sunlight in the patio d
             img="images/weather/setup-1.jpg"
             title="First Outdoor Setup"
             caption="First Outdoor Setup"
-            url="https://alvarop.com/images/weather/setup-1.jpg" %}
+            url="/images/weather/setup-1.jpg" %}
 
 ## Nucleo Weather Breakout v0.2
 After I had most of the FW verified, I decided to do a second breakout board. This one had a built-in low-ish power GPS and antenna, BMP280 pressure sensor, as well as fewer random headers, and a new dual RJ11/14 connector.
@@ -78,7 +78,7 @@ After I had most of the FW verified, I decided to do a second breakout board. Th
             img="images/weather/breakout-2.jpg"
             title="Weather Breakout v0.2"
             caption="Weather Breakout v0.2"
-            url="https://alvarop.com/images/weather/breakout-2.jpg" %}
+            url="/images/weather/breakout-2.jpg" %}
 
 Once the second board arrived and was working (It required a few bodge wires to get working as usual), it quickly went outside for longer-term testing. Overall, I think it was outside for a few weeks before being replaced by the new model.
 
@@ -86,7 +86,7 @@ Once the second board arrived and was working (It required a few bodge wires to 
             img="images/weather/enclosure-2.jpg"
             title="Inside First Enclosure (with breakout v0.2)"
             caption="Inside First Enclosure (with breakout v0.2)"
-            url="https://alvarop.com/images/weather/enclosure-2.jpg" %}
+            url="/images/weather/enclosure-2.jpg" %}
 
 ## Chaac v1.0
 
@@ -102,7 +102,7 @@ This new board has a battery charger and solar panel input (borrowed from [Adafr
             img="images/weather/chaac-v1p0.jpg"
             title="Chaac v1.0"
             caption="Chaac v1.0"
-            url="https://alvarop.com/images/weather/chaac-v1p0.jpg" %}
+            url="/images/weather/chaac-v1p0.jpg" %}
 
 As with most new designs, I made some silly mistakes with the first version. Not having pull down resistors on the standby pin for the Xbee, having a floating boot0 pin on the STM32, mis-wiring the battery charger, etc. After lots of debugging and some reworks, the board was working well enough and went outside to replace the old setup.
 
@@ -112,7 +112,7 @@ As with most new designs, I made some silly mistakes with the first version. Not
             img="images/weather/enclosure-3.jpg"
             title="Inside Second Enclosure"
             caption="Inside Second Enclosure"
-            url="https://alvarop.com/images/weather/enclosure-3.jpg" %}
+            url="/images/weather/enclosure-3.jpg" %}
 
 Now that the setup was much simpler/smaller, I needed to get a smaller enclosure. I found a [great video](https://youtu.be/93ipPhr7QtQ) by [ModestMaker](https://www.youtube.com/channel/UCOQPCnJA159S1ujoHroT85Q) on YouTube which has step-by-step assembly instructions and a full parts list for a remote environmental monitoring system (Check out the description of the video for lots more details.) I used the same [Bud Industries NBF-32202 Economy Box](https://www.amazon.com/gp/product/B005UPAN0W/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1), McMaster cable glands, conduit, RAM mount for the solar panel, etc...
 
@@ -120,7 +120,7 @@ Now that the setup was much simpler/smaller, I needed to get a smaller enclosure
             img="images/weather/enclosure-4.jpg"
             title="Second Enclosure Outside"
             caption="Second Enclosure Outside"
-            url="https://alvarop.com/images/weather/enclosure-4.jpg" %}
+            url="/images/weather/enclosure-4.jpg" %}
 
 In order to mount the Chaac v1.0 board to the enclosure, I again used a piece of cardboard with holes it. It worked well enough in the short term. On the outside, I used a piece of PVC pipe and a plastic cup to shield the temperature/humidity sensor from the rain and some conformal coating to make the light sensor waterproof.
 
@@ -128,7 +128,7 @@ In order to mount the Chaac v1.0 board to the enclosure, I again used a piece of
             img="images/weather/conformal-coating-1.jpg"
             title="Applying conformal coating to light sensor"
             caption="Applying conformal coating to light sensor"
-            url="https://alvarop.com/images/weather/conformal-coating-1.jpg" %}
+            url="/images/weather/conformal-coating-1.jpg" %}
 
 ## Chaac v1.1
 The second revision of the chaac board included fixes for all the bodge wires in the v1.0. I removed the fan driver and gps serial input, since I didn't think I would ever use them, and moved the light sensor connection to the bottom for simpler wiring.
@@ -139,7 +139,7 @@ Another addition was a MOSFET to disconnect the wind direction and light sensor 
             img="images/weather/chaac-v1p1.jpg"
             title="Chaac v1.1"
             caption="Chaac v1.1"
-            url="https://alvarop.com/images/weather/chaac-v1p1.jpg" %}
+            url="/images/weather/chaac-v1p1.jpg" %}
 
 ## Third Enclosure
 Since I had one system working outside, I decided to put together a second enclosure. Being the incredibly attentive and detail oriented person that I am, I drilled the holes on the wrong side of the box. Since the solar panel cable is so short, the cable gland needs to be on the top side of the box near the door hinges, not on the bottom... I used some gorilla tape to cover up the bad holes and hoped it would keep out the water. I also tried a new method of mounting the board: a piece of cheap plastic from a disposable food container.
@@ -148,13 +148,13 @@ Since I had one system working outside, I decided to put together a second enclo
             img="images/weather/patched-hole.jpg"
             title="Patched Hole"
             caption="Patched Hole"
-            url="https://alvarop.com/images/weather/patched-hole.jpg" %}
+            url="/images/weather/patched-hole.jpg" %}
 
 {% include image.html
             img="images/weather/plastic-mount.jpg"
             title="Plastic Mount"
             caption="Plastic Mount"
-            url="https://alvarop.com/images/weather/plastic-mount.jpg" %}
+            url="/images/weather/plastic-mount.jpg" %}
 
 ## Chaac v1.2
 The last revision of the board added solar panel voltage monitoring, a bootloader button, and moved the solar panel and battery connectors to a better location. The solar panel voltage can be used to determine whether or not the battery is being charged and also to get light levels. I wanted to see whether a separate light level sensor is worth it or not.
@@ -163,7 +163,7 @@ The last revision of the board added solar panel voltage monitoring, a bootloade
             img="images/weather/chaac-v1p2.jpg"
             title="Chaac v1.2"
             caption="Chaac v1.2"
-            url="https://alvarop.com/images/weather/chaac-v1p2.jpg" %}
+            url="/images/weather/chaac-v1p2.jpg" %}
 
 ## Fourth Enclosure
 I put together one last enclosure. This one used a piece of wood for a slightly nicer backplate and had properly aligned holes.
@@ -172,7 +172,7 @@ I put together one last enclosure. This one used a piece of wood for a slightly 
             img="images/weather/enclosure-5.jpg"
             title="Fourth Enclosure with Wooden Mounting Plate"
             caption="Fourth Enclosure with Wooden Mounting Plate"
-            url="https://alvarop.com/images/weather/enclosure-5.jpg" %}
+            url="/images/weather/enclosure-5.jpg" %}
 
 Why so many enclosures?! You might ask... This one traveled with me to Mexico when I visited my parents. My dad and I installed it on the roof of the house. For the first time, the weather station had a clear view of the sky :D.
 
@@ -180,7 +180,7 @@ Why so many enclosures?! You might ask... This one traveled with me to Mexico wh
             img="images/weather/enclosure-6.jpg"
             title="Final Setup in Mexico"
             caption="Final Setup in Mexico"
-            url="https://alvarop.com/images/weather/enclosure-6.jpg" %}
+            url="/images/weather/enclosure-6.jpg" %}
 
 
 ## Server/UI
@@ -193,7 +193,7 @@ In the end, I came up with something that looks like this:
             img="images/weather/ui-summary.png"
             title="Web UI Summary"
             caption="Web UI Summary"
-            url="https://alvarop.com/images/weather/ui-summary.png" %}
+            url="/images/weather/ui-summary.png" %}
 
 A "summary" page with the latest data as well as a "plots" page with day/week/month data.
 
@@ -201,13 +201,13 @@ A "summary" page with the latest data as well as a "plots" page with day/week/mo
             img="images/weather/ui-plots-1.png"
             title="Web UI Plots (1/2)"
             caption="Web UI Plots (1/2)"
-            url="https://alvarop.com/images/weather/ui-plots-1.png" %}
+            url="/images/weather/ui-plots-1.png" %}
 
 {% include image.html
             img="images/weather/ui-plots-2.png"
             title="Web UI Plots (2/2)"
             caption="Web UI Plots (2/2)"
-            url="https://alvarop.com/images/weather/ui-plots-2.png" %}
+            url="/images/weather/ui-plots-2.png" %}
 
 So far you need to be on the same network as the raspberry pi to view the data, but I do have plans to make it publicly visible at some point.
 

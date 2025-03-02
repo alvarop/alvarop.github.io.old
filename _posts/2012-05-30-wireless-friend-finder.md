@@ -21,7 +21,7 @@ Since the devices aren't very nicely built, I was slightly worried about the air
             img="images/wp/IMG_20120517_161712-640x480.jpg"
             title=""
             caption=""
-            url="https://alvarop.com/images/wp/IMG_20120517_161712.jpg" %}
+            url="/images/wp/IMG_20120517_161712.jpg" %}
 
 Even though the project was for the bring-a-hack dinner, I carried it around while I was at the faire. I was surprised at the reactions it received. Many people were asking if I had plans to make these into an actual product!(And suggesting new features) Moms wanting to find their kids, concert goers wanting to find their friends, burning man attendees, etc... The devices themselves are really cheap, under $10 each, so who knows...
 

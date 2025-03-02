@@ -9,7 +9,7 @@ tags: []
             img="images/blgr/IMG_0665.jpg"
             title="img1"
             caption="img1"
-            url="https://alvarop.com/images/blgr/IMG_0665.jpg" %}
+            url="/images/blgr/IMG_0665.jpg" %}
 
 
 So after lunch today, we heard a helicopter flying overhead. I was told that it was the USMC doing flights if you did 10+ pull-ups. I decided to head over since I had never been in a helicopter before. When I arrived, they told me that anyone can take a ride, but if you can do at least 15 pull ups, you get to skip the (very long) line.

@@ -22,7 +22,7 @@ The next/last step consisted of writing an Objective-C app to do it all.
             img="images/wp/Screen-Shot-2013-12-07-at-4.28.34-PM-640x249.png"
             title="VideoMessageExporter Screenshot"
             caption="VideoMessageExporter Screenshot"
-            url="https://alvarop.com/images/wp/Screen-Shot-2013-12-07-at-4.28.34-PM.png" %}
+            url="/images/wp/Screen-Shot-2013-12-07-at-4.28.34-PM.png" %}
 
 The application automatically finds the database file (or files, if there are multiple Skype accounts). After that, it opens each one and gets the video message info to display. The users can then select the messages they want and download them all at once to the desktop.
 

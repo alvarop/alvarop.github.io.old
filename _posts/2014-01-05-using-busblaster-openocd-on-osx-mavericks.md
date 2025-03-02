@@ -32,7 +32,7 @@ Find the device you want excluded, in this case <strong>AppleUSBEFTDI-6010-0</s
             img="images/wp/Screen-Shot-2014-01-05-at-8.05.07-AM-640x362.png"
             title="FTDI Device Id"
             caption="FTDI Device Id"
-            url="https://alvarop.com/images/wp/Screen-Shot-2014-01-05-at-8.05.07-AM-640x362.png" %}
+            url="/images/wp/Screen-Shot-2014-01-05-at-8.05.07-AM-640x362.png" %}
 
 Now you just have to reload the kext and everything should work without having to load/unload kexts every time!
 <strong>sudo kextunload -bundle com.apple.driver.AppleUSBFTDI</strong>
@@ -42,4 +42,4 @@ Now you just have to reload the kext and everything should work without having t
             img="images/wp/Screen-Shot-2014-01-05-at-8.03.31-AM-432x480.png"
             title="AppleUSBFTDI.kext Info.Plist"
             caption="AppleUSBFTDI.kext Info.Plist"
-            url="https://alvarop.com/images/wp/Screen-Shot-2014-01-05-at-8.03.31-AM.png" %}
+            url="/images/wp/Screen-Shot-2014-01-05-at-8.03.31-AM.png" %}

@@ -17,7 +17,7 @@ After <a title="GCC-ARM for Cortex-M3 on Ubuntu" href="http://alvarop.com/2013/0
             img="images/wp/IMG_0037.jpg"
             title="BusBlaster and LPCXpresso LPC1769"
             caption="BusBlaster and LPCXpresso LPC1769"
-            url="https://alvarop.com/images/wp/IMG_0037.jpg" %}
+            url="/images/wp/IMG_0037.jpg" %}
 
 So why, you might ask, do I go to all this trouble to get a debugger working? Because debuggers are awesome! Without them, one has to resort to printf statements(if you're lucky enough to have that working) and LED's. Sure, those are useful sometimes, but having access to memory, registers, stepping through code, etc. makes debugging much easier!
 
@@ -54,7 +54,7 @@ So why, you might ask, do I go to all this trouble to get a debugger working? Be
             img="images/wp/split.png"
             title="Split view in GDB"
             caption="Split view in GDB"
-            url="https://alvarop.com/images/wp/split.png" %}
+            url="/images/wp/split.png" %}
 
 It's been a while since I use GDB, but here are some examples of commands that are useful:
 

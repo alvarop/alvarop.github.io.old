@@ -14,7 +14,7 @@ Here is a picture of the end result:
             img="images/blgr/s320/HPIM2603.JPG"
             title=""
             caption=""
-            url="https://alvarop.com/images/blgr/HPIM2603.JPG" %}
+            url="/images/blgr/HPIM2603.JPG" %}
 
  Aside from that, nothing of much interest has happened.
 

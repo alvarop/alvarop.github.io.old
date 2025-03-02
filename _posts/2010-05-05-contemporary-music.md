@@ -10,6 +10,6 @@ So today I had my first encounter with contemporary (1900-now) music. It was pre
             img="images/blgr/s400/IMG_0659.JPG"
             title=""
             caption=""
-            url="https://alvarop.com/images/blgr/IMG_0659.JPG" %}
+            url="/images/blgr/IMG_0659.JPG" %}
 
 In other news, my sinus infection is back... I hope these antibiotics do their job quickly.

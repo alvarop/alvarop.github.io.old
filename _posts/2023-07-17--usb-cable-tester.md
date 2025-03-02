@@ -14,21 +14,21 @@ I’ve made a simple board to test most of the things!
 	img="images/usb_cable_tester/1.jpeg" 
 	title="USB Cable Tester v2.0 - Front"
 	caption="USB Cable Tester v2.0 - Front"
-	url="https://alvarop.com/images/usb_cable_tester/1.jpeg"
+	url="/images/usb_cable_tester/1.jpeg"
 %}
 
 {% include image.html 
 	img="images/usb_cable_tester/2.jpeg" 
 	title="USB Cable Tester v2.0 - Back"
 	caption="USB Cable Tester v2.0 - Back"
-	url="https://alvarop.com/images/usb_cable_tester/2.jpeg"
+	url="/images/usb_cable_tester/2.jpeg"
 %}
 
 {% include image.html 
 	img="images/usb_cable_tester/3.jpeg" 
 	title="USB Cable Tester v2.0 - Side"
 	caption="USB Cable Tester v2.0 - Side"
-	url="https://alvarop.com/images/usb_cable_tester/3.jpeg"
+	url="/images/usb_cable_tester/3.jpeg"
 %}
 
 (This post is derived from my original [twitter thread](https://twitter.com/alvaroprieto/status/1594036248481771520) about it.)
@@ -41,14 +41,14 @@ Connect your cable to both sides and the signal LEDs will light up if they are c
 	img="images/usb_cable_tester/4.jpeg" 
 	title="Testing a USB-C 2.0 Cable"
 	caption="Testing a USB-C 2.0 Cable"
-	url="https://alvarop.com/images/usb_cable_tester/4.jpeg"
+	url="/images/usb_cable_tester/4.jpeg"
 %}
 
 {% include image.html 
 	img="images/usb_cable_tester/5.jpeg" 
 	title="Testing a Thunderbolt 3 Cable"
 	caption="Testing a Thunderbolt 3 Cable"
-	url="https://alvarop.com/images/usb_cable_tester/5.jpeg"
+	url="/images/usb_cable_tester/5.jpeg"
 %}
 
 Want to test a USB A to C cable? How about a USB A to Micro B? USB C to B? Mini B? You’ve got it!
@@ -57,21 +57,21 @@ Want to test a USB A to C cable? How about a USB A to Micro B? USB C to B? Mini 
 	img="images/usb_cable_tester/6.jpeg" 
 	title="Testing a USB A to C Cable"
 	caption="Testing a USB A to C Cable"
-	url="https://alvarop.com/images/usb_cable_tester/6.jpeg"
+	url="/images/usb_cable_tester/6.jpeg"
 %}
 
 {% include image.html 
 	img="images/usb_cable_tester/7.jpeg" 
 	title="Testing a USB C to B Cable"
 	caption="Testing a USB C to B Cable"
-	url="https://alvarop.com/images/usb_cable_tester/7.jpeg"
+	url="/images/usb_cable_tester/7.jpeg"
 %}
 
 {% include image.html 
 	img="images/usb_cable_tester/8.jpeg" 
 	title="Testing a USB A to Micro B Cable"
 	caption="Testing a USB A to Micro B Cable"
-	url="https://alvarop.com/images/usb_cable_tester/8.jpeg"
+	url="/images/usb_cable_tester/8.jpeg"
 %}
 
 Here’s what a the dreaded charge-only cables look like. I had to make my own since I had previously banished them from my lab! (These are the real reason I made this)
@@ -80,14 +80,14 @@ Here’s what a the dreaded charge-only cables look like. I had to make my own s
 	img="images/usb_cable_tester/9.jpeg" 
 	title="Testing a Charge-only Cable"
 	caption="Testing a Charge-only Cable"
-	url="https://alvarop.com/images/usb_cable_tester/9.jpeg"
+	url="/images/usb_cable_tester/9.jpeg"
 %}
 
 {% include image.html 
 	img="images/usb_cable_tester/10.jpeg" 
 	title="Homemade Charge-only Cable"
 	caption="Homemade Charge-only Cable"
-	url="https://alvarop.com/images/usb_cable_tester/10.jpeg"
+	url="/images/usb_cable_tester/10.jpeg"
 %}
 
 But….What if my cable is too short!? We have that covered too 😂
@@ -96,14 +96,14 @@ But….What if my cable is too short!? We have that covered too 😂
 	img="images/usb_cable_tester/11.jpeg" 
 	title="Testing a short USB 4 Cable"
 	caption="Testing a short USB 4 Cable"
-	url="https://alvarop.com/images/usb_cable_tester/11.jpeg"
+	url="/images/usb_cable_tester/11.jpeg"
 %}
 
 {% include image.html 
 	img="images/usb_cable_tester/12.jpeg" 
 	title="Testing a short USB 4 Cable (Part 2)"
 	caption="Testing a short USB 4 Cable (Part 2)"
-	url="https://alvarop.com/images/usb_cable_tester/12.jpeg"
+	url="/images/usb_cable_tester/12.jpeg"
 %}
 
 ## How can I get one?!

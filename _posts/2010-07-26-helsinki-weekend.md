@@ -9,7 +9,7 @@ tags: []
             img="images/flckr/4826812111_13bf7599d8_b.jpg"
             title=""
             caption=""
-            url="https://alvarop.com/images/flckr/4826812111_13bf7599d8_b.jpg" %}
+            url="/images/flckr/4826812111_13bf7599d8_b.jpg" %}
 
 ### July 23-25
 
@@ -23,7 +23,7 @@ It took some time before everyone arrived, but there were more than 20 people in
             img="images/flckr/4827290434_4f6f476331_b.jpg"
             title=""
             caption=""
-            url="https://alvarop.com/images/flckr/4827290434_4f6f476331_b.jpg" %}
+            url="/images/flckr/4827290434_4f6f476331_b.jpg" %}
 
 Since most people stayed out until who knows when, the Saturday activities were slow to start. Unfortunately I was awake quite early and had to wait until everyone was up. A few of us left early and got some breakfast before heading for the port. We took a ferry to the <a href="http://en.wikipedia.org/wiki/Suomenlinna">Suomenlinna</a> sea fortress. We walked around for a bit and later went on a guided tour of the island. The girl giving the tour gave us a humorous story about the island. Here are a few things I learned:
 
@@ -37,7 +37,7 @@ I went to the bathroom in the building and when I returned, most of the people w
             img="images/flckr/4826713219_6427e902f1_b.jpg"
             title=""
             caption=""
-            url="https://alvarop.com/images/flckr/4826713219_6427e902f1_b.jpg" %}
+            url="/images/flckr/4826713219_6427e902f1_b.jpg" %}
 
 I sat down to wait for the next ferry, which would arrive in half an hour. After 20 minutes or so, four other people from the group arrived to the ferry stop. They had stayed behind and gone to a museum on the island. Once we got on the ferry, I went on the deck to enjoy (what I thought was) the nice weather. The other four stayed inside. I met a guy on the deck named Osku and his friends. He’s getting married so his friends made his boss call him to work (during his vacation) and dressed him up as a German soldier. They told me what they had done so far and that they had a few more surprises left for the poor guy.
 
@@ -47,7 +47,7 @@ After we landed, I headed back to the hostel. The rest of the group arrived afte
             img="images/flckr/4827405788_f428f8f8bc_b.jpg"
             title=""
             caption=""
-            url="https://alvarop.com/images/flckr/4827405788_f428f8f8bc_b.jpg" %}
+            url="/images/flckr/4827405788_f428f8f8bc_b.jpg" %}
 
 After a while, everyone decided to head to a night club in the city. I didn’t go in with the rest and headed home, or so I thought. I wanted to take the last tram so I wouldn’t have to walk all the way. After a few stops, there was an announcement in Finnish. Many people got off at the next stop. I had no idea what was happening, so I asked one of the people that was still on the tram what they had announced. She said that this tram was not going to follow its usual route. I got off at the next station, but was already off course. After walking for a while, I managed to find the hostel, but not before ending up at a theme park somewhere in the city.
 
@@ -55,7 +55,7 @@ After a while, everyone decided to head to a night club in the city. I didn’t 
             img="images/flckr/4826814787_1d357f69d6_b.jpg"
             title=""
             caption=""
-            url="https://alvarop.com/images/flckr/4826814787_1d357f69d6_b.jpg" %}
+            url="/images/flckr/4826814787_1d357f69d6_b.jpg" %}
 </div>
 
 The next day several people headed home early. The rest of us walked around Helsinki for a while. I took the train home around 3:30.
