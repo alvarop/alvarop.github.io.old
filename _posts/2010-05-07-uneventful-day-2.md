@@ -11,4 +11,4 @@ My sinus infection hasn't gone away. I'm looking forward to tomorrow. I think I 
             img="images/blgr/s400/IMG_1086_7_8_final.jpg"
             title=""
             caption=""
-            url="/images/blgr/IMG_1086_7_8_final.jpg" %}
+            url="https://alvarop.com/images/blgr/IMG_1086_7_8_final.jpg" %}

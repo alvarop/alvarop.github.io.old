@@ -15,7 +15,7 @@ First right-click over the generated links and select "inspect element".
             img="images/wp/1_inspect_element.png"
             title="Inspect Element"
             caption="Inspect Element"
-            url="/images/wp/1_inspect_element.png" %}
+            url="https://alvarop.com/images/wp/1_inspect_element.png" %}
 
 Once the inspect element window appears, right-click on the top HTML tag and select "Copy as HTML". This will let you copy the JavaScript generated HTML. (If you had just clicked view-source, it might not have included that.)
 
@@ -23,7 +23,7 @@ Once the inspect element window appears, right-click on the top HTML tag and sel
             img="images/wp/2_copy_as_html.png"
             title="Copy as HTML"
             caption="Copy as HTML"
-            url="/images/wp/2_copy_as_html.png" %}
+            url="https://alvarop.com/images/wp/2_copy_as_html.png" %}
 
 Paste the HTML onto your favorite text editor. I saved it as "toc.html".
 
@@ -31,7 +31,7 @@ Paste the HTML onto your favorite text editor. I saved it as "toc.html".
             img="images/wp/3_notepad-527x480.png"
             title=""
             caption=""
-            url="/images/wp/3_notepad.png" %}
+            url="https://alvarop.com/images/wp/3_notepad.png" %}
 
 The next step is to get all the 'new' links from the WordPress site. You can export an xml file with all the information in the WordPress settings. I saved that one as "wpexport.xml".
 
@@ -39,7 +39,7 @@ The next step is to get all the 'new' links from the WordPress site. You can exp
             img="images/wp/4_export_wordpress_xml.png"
             title="Wordpress Export"
             caption="Wordpress Export"
-            url="/images/wp/4_export_wordpress_xml.png" %}
+            url="https://alvarop.com/images/wp/4_export_wordpress_xml.png" %}
 
 Now that there are two files with the links buried in them, we need to extract them and match them. I wrote a quick <a href="https://github.com/alvarop/alvarop-scripts/blob/master/blogger_to_wordpress_links/blogger_to_wordpress_links.pl">perl script</a> that reads both files, takes the urls, matches as many as it can, and spits out a csv file.
 
@@ -53,7 +53,7 @@ Most of the urls were automatically matched, but a few were not, so I opened up 
             img="images/wp/5_csv_link_list.png"
             title="CSV List"
             caption="CSV List"
-            url="/images/wp/5_csv_link_list.png" %}
+            url="https://alvarop.com/images/wp/5_csv_link_list.png" %}
 
 Ok, so now I have a csv file with URL's, but what I really need is a .htaccess file to actually do the work. I wrote <a href="https://github.com/alvarop/alvarop-scripts/blob/master/blogger_to_wordpress_links/csv_to_htacces.pl">another script</a> to do that.
 

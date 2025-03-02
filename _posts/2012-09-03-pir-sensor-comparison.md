@@ -14,7 +14,7 @@ I recently started working on a project that <em>might</em> require some Passiv
             img="images/wp/IMG_0932-640x426.jpg"
             title=""
             caption=""
-            url="/images/wp/IMG_0932.jpg" %}
+            url="https://alvarop.com/images/wp/IMG_0932.jpg" %}
 
 The comparison is between a <a href="https://www.sparkfun.com/products/9587">Zilog ePIR</a> and an <a href="https://www.sparkfun.com/products/8630">SE-10</a>. One very important thing to note is that I did not use the<strong> ePIR</strong>'s serial interface. I only used the hardware interface, set to the highest sensitivity, and shortest delay. I felt that this would be a better comparison. I made a video that shows my test setup, as well as some results, so most of the relevant information is there. I'll use this blog post to add some setup details, as well as my conclusion.
 
@@ -30,7 +30,7 @@ You'll notice the <strong>SE-10</strong> takes in <strong>12V</strong>. Several 
             img="images/wp/IMG_0931-640x426.jpg"
             title="SE-10 Jumper"
             caption="SE-10 Jumper"
-            url="/images/wp/IMG_0931.jpg" %}
+            url="https://alvarop.com/images/wp/IMG_0931.jpg" %}
 
 The <strong>ePIR</strong> sensor took me a bit longer to get working. The datasheet is quite long, mostly documenting all the configurations and serial interface. They do have a nice schematic showing the <strong>Hardware Interface Mode.</strong> It shows all the connections required to get this working without the serial interface. The schematic has three potentiometers, a photoresistor and three regular resistors. Luckily, you don't even need that for the most basic operation. The pots are all for setting the <strong>delay</strong>(pin 2), <strong>sensitivity</strong>(pin 3), and <strong>light gate threshold</strong>(pin 6). You can just connect the <strong>delay</strong> and <strong></strong> sensitivity<strong> </strong>pins to ground, and the <strong>light gate </strong>to VCC(which is <strong>3.3V</strong> for this device). This will use the minimum delay (2 seconds), maximum sensitivity, and have the device always on.
 

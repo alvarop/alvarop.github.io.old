@@ -12,4 +12,4 @@ I didn't take any pictures today, so here's one from yesterday. I was messing ar
             img="images/blgr/s400/IMG_1122.JPG"
             title=""
             caption=""
-            url="/images/blgr/IMG_1122.JPG" %}
+            url="https://alvarop.com/images/blgr/IMG_1122.JPG" %}

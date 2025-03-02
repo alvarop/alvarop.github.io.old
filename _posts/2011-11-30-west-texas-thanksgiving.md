@@ -19,7 +19,7 @@ Being the time-lapse nerd that I am, I decided to experiment with my camera and 
             img="images/blgr/s640/IMG_20111124_093416.jpg"
             title="Rear window mount."
             caption="Rear window mount."
-            url="/images/blgr/IMG_20111124_093416.jpg" %}
+            url="https://alvarop.com/images/blgr/IMG_20111124_093416.jpg" %}
 
 Unfortunately it didn't turn out so great...
 
@@ -31,7 +31,7 @@ My second experiment took place later that night near someone's ranch. I'm not s
             img="images/flckr/6400131849_ca8c0b5979_b.jpg"
             title="Radio telescope."
             caption="Radio telescope."
-            url="/images/flckr/6400131849_ca8c0b5979_b.jpg" %}
+            url="https://alvarop.com/images/flckr/6400131849_ca8c0b5979_b.jpg" %}
 
 The video is extremely short, but I thought it came out alright.
 
@@ -42,7 +42,7 @@ Since I went there to look at the night sky, I had to find stuff to do during th
             img="images/blgr/s640/IMG_20111125_132532.jpg"
             title="Camera on car hood. Talk about trust!"
             caption="Camera on car hood. Talk about trust!"
-            url="/images/blgr/IMG_20111125_132532.jpg" %}
+            url="https://alvarop.com/images/blgr/IMG_20111125_132532.jpg" %}
 
 The first one happened during a drive from Marfa to Fort Davis.
 
@@ -58,7 +58,7 @@ The last was a more traditional time-lapse. I was driving and saw a nice field a
             img="images/blgr/s640/IMG_20111126_173049.jpg"
             title=""
             caption=""
-            url="/images/blgr/IMG_20111126_173049.jpg" %}
+            url="https://alvarop.com/images/blgr/IMG_20111126_173049.jpg" %}
 
 
 Unfortunately I was on the side of the road, which produced some "interesting" effects due to car headlights... I tried moving the camera near the end to just point at the sky, but it's an ugly transition. Notice that Venus and the Moon are setting close to each other following the sunset. Again, for best results, watch the HD video in full screen!

@@ -32,7 +32,7 @@ The USB-C specification has a nice table with all of the power delivery options.
     img="images/swd2usbc/SWD to USB-C_1.png" 
     title="Table4-2 from USB-C Specification"
     caption="Table4-2 from USB-C Specification"
-    url="/images/swd2usbc/SWD to USB-C_1.png"
+    url="https://alvarop.com/images/swd2usbc/SWD to USB-C_1.png"
 %}
 
 As described by the table, each mode of operation can be superseded by one of the newer ones. USB Type-C Current can provide up to 5V @ 3A.
@@ -45,14 +45,14 @@ Here are two tables showing the pinout of a Type-C receptacle and a Type-C Plug.
     img="images/swd2usbc/SWD to USB-C_2.png" 
     title="Figure 2-1 from USB-C Spec - Receptacle Interface"
     caption="Figure 2-1 from USB-C Spec - Receptacle Interface"
-    url="/images/swd2usbc/SWD to USB-C_2.png"
+    url="https://alvarop.com/images/swd2usbc/SWD to USB-C_2.png"
 %}
 
 {% include image.html 
     img="images/swd2usbc/SWD to USB-C_3.png" 
     title="Figure 2-2 from USB-C Spec - Plug Interface"
     caption="Figure 2-2 from USB-C Spec - Plug Interface"
-    url="/images/swd2usbc/SWD to USB-C_3.png"
+    url="https://alvarop.com/images/swd2usbc/SWD to USB-C_3.png"
 %}
 
 "Legacy" USB-C cables only had **Vbus**, **GND**, **D-**, and **D+**. Once USB 3.0 came along, it added the high speed signals **TX+**/**TX-** and **RX+**/**RX-**. Type-C has all of those and then some.
@@ -70,7 +70,7 @@ Here's a quick summary of how USB Type-C Current works. The device providing, or
     img="images/swd2usbc/SWD to USB-C_4.png" 
     title="Figure 4-34 from USB-C Spec - CC pulldown schematic"
     caption="Figure 4-34 from USB-C Spec - CC pulldown schematic"
-    url="/images/swd2usbc/SWD to USB-C_4.png"
+    url="https://alvarop.com/images/swd2usbc/SWD to USB-C_4.png"
 %}
 
 
@@ -80,7 +80,7 @@ Depending on the source's pull up resistor (**Rp**) value, the source can advert
     img="images/swd2usbc/SWD to USB-C_5.png" 
     title="USB-C Specification Table 4-24"
     caption="USB-C Specification Table 4-24"
-    url="/images/swd2usbc/SWD to USB-C_5.png"
+    url="https://alvarop.com/images/swd2usbc/SWD to USB-C_5.png"
 %}
 
 
@@ -96,7 +96,7 @@ While in DAM, the following signals can be repurposed:
     img="images/swd2usbc/SWD to USB-C_6.png" 
     title="USB-C Specificatoin Figure B-2"
     caption="USB-C Specificatoin Figure B-2"
-    url="/images/swd2usbc/SWD to USB-C_6.png"
+    url="https://alvarop.com/images/swd2usbc/SWD to USB-C_6.png"
 %}
 
 
@@ -111,7 +111,7 @@ If the device is in DAM, how can the target tell how much charge current availab
     img="images/swd2usbc/SWD to USB-C_7.png" 
     title="USB-C Specification Table B-2"
     caption="USB-C Specification Table B-2"
-    url="/images/swd2usbc/SWD to USB-C_7.png"
+    url="https://alvarop.com/images/swd2usbc/SWD to USB-C_7.png"
 %}
 
 
@@ -139,7 +139,7 @@ In order to do this "properly", we can use a two comparators(op-amps in my case)
     img="images/swd2usbc/SWD to USB-C_8.png" 
     title="Comparator/Mux Diagram"
     caption="Comparator/Mux Diagram"
-    url="/images/swd2usbc/SWD to USB-C_8.png"
+    url="https://alvarop.com/images/swd2usbc/SWD to USB-C_8.png"
 %}
 
 
@@ -153,7 +153,7 @@ In order to test all this, I first used a USB-C plug breakout board with a few w
     img="images/swd2usbc/SWD to USB-C_9.jpg" 
     title="USB-C Plug Breakout Board and Mux/Comparator Test Setup"
     caption="USB-C Plug Breakout Board and Mux/Comparator Test Setup"
-    url="/images/swd2usbc/SWD to USB-C_9.jpg"
+    url="https://alvarop.com/images/swd2usbc/SWD to USB-C_9.jpg"
 %}
 
 
@@ -165,7 +165,7 @@ I used the wrong footprint for the attiny24a 🤦‍♂️. I ended up hard-wiri
     img="images/swd2usbc/SWD to USB-C_10.jpg" 
     title="SWD to USB-C v1.0"
     caption="SWD to USB-C v1.0"
-    url="/images/swd2usbc/SWD to USB-C_10.jpg"
+    url="https://alvarop.com/images/swd2usbc/SWD to USB-C_10.jpg"
 %}
 
 
@@ -177,7 +177,7 @@ The only problem was... I had to program the attiny24 somehowi!
     img="images/swd2usbc/SWD to USB-C_11.jpg" 
     title="SWD to USB-C v1.1"
     caption="SWD to USB-C v1.1"
-    url="/images/swd2usbc/SWD to USB-C_11.jpg"
+    url="https://alvarop.com/images/swd2usbc/SWD to USB-C_11.jpg"
 %}
 
 
@@ -187,7 +187,7 @@ So I made another programmer over USB-C 😂 This one used SPI instead of SWD. I
     img="images/swd2usbc/SWD to USB-C_12.jpg" 
     title="ATTiny Programmer Over USB-C Connected to SWD2USBC Board"
     caption="ATTiny Programmer Over USB-C Connected to SWD2USBC Board"
-    url="/images/swd2usbc/SWD to USB-C_12.jpg"
+    url="https://alvarop.com/images/swd2usbc/SWD to USB-C_12.jpg"
 %}
 
 
@@ -197,7 +197,7 @@ I decided to make a test target with all the features mentioned above. It's just
     img="images/swd2usbc/SWD to USB-C_13.jpg" 
     title="SWD over USB-C Sample Target v1.1"
     caption="SWD over USB-C Sample Target v1.1"
-    url="/images/swd2usbc/SWD to USB-C_13.jpg"
+    url="https://alvarop.com/images/swd2usbc/SWD to USB-C_13.jpg"
 %}
 
 ## New Designs
@@ -208,7 +208,7 @@ I re-designed the board to be more easily produced and hopefully allow for a cas
     img="images/swd2usbc/SWD to USB-C_14.jpg" 
     title="SWD2USBC v1.6"
     caption="SWD2USBC v1.6"
-    url="/images/swd2usbc/SWD to USB-C_14.jpg"
+    url="https://alvarop.com/images/swd2usbc/SWD to USB-C_14.jpg"
 %}
 
 
@@ -218,7 +218,7 @@ They did the panelization, and it came out fairly well. I screwed up my BOM so I
     img="images/swd2usbc/SWD to USB-C_15.jpg" 
     title="Panelized (and reworked) Boards"
     caption="Panelized (and reworked) Boards"
-    url="/images/swd2usbc/SWD to USB-C_15.jpg"
+    url="https://alvarop.com/images/swd2usbc/SWD to USB-C_15.jpg"
 %}
 
 
@@ -228,7 +228,7 @@ Here’s a photo of a few generations. The first three were hand assembled by me
     img="images/swd2usbc/SWD to USB-C_16.jpg" 
     title="Four Generations of SWD2USBC Devices"
     caption="Four Generations of SWD2USBC Devices"
-    url="/images/swd2usbc/SWD to USB-C_16.jpg"
+    url="https://alvarop.com/images/swd2usbc/SWD to USB-C_16.jpg"
 %}
 
 ### Possible Improvements
@@ -239,7 +239,7 @@ So what’s next? First, I made 20 of these. We used them at work successfully f
     img="images/swd2usbc/SWD to USB-C_17.jpg" 
     title="Device In Use"
     caption="Device In Use"
-    url="/images/swd2usbc/SWD to USB-C_17.jpg"
+    url="https://alvarop.com/images/swd2usbc/SWD to USB-C_17.jpg"
 %}
 
 
@@ -249,7 +249,7 @@ Due to the form factor, quite a bit of stress is placed on that plug from the US
     img="images/swd2usbc/SWD to USB-C_18.jpg" 
     title="USB2SWD In Use (No USB Cable Connected)"
     caption="USB2SWD In Use (No USB Cable Connected)"
-    url="/images/swd2usbc/SWD to USB-C_18.jpg"
+    url="https://alvarop.com/images/swd2usbc/SWD to USB-C_18.jpg"
 %}
 
 
@@ -259,7 +259,7 @@ Ideally, I’d like to switch to the form factor below, where the main PCB and U
     img="images/swd2usbc/SWD to USB-C_19.jpg" 
     title="USB-C SD Card Adapter and SWD2USBC"
     caption="USB-C SD Card Adapter and SWD2USBC"
-    url="/images/swd2usbc/SWD to USB-C_19.jpg"
+    url="https://alvarop.com/images/swd2usbc/SWD to USB-C_19.jpg"
 %}
 
 ### Teardown
@@ -270,7 +270,7 @@ I had no idea how they make these, so I decided to take a look 😅. Removing on
     img="images/swd2usbc/SWD to USB-C_20.jpg" 
     title="Teardown of USB-C SD Card Adapter - PCB Side"
     caption="Teardown of USB-C SD Card Adapter - PCB Side"
-    url="/images/swd2usbc/SWD to USB-C_20.jpg"
+    url="https://alvarop.com/images/swd2usbc/SWD to USB-C_20.jpg"
 %}
 
 
@@ -280,7 +280,7 @@ Removing the other end was much more destructive. I had to rip apart the metal c
     img="images/swd2usbc/SWD to USB-C_21.jpg" 
     title="Teardown of USBC SD Card Adapter - Plug Side"
     caption="Teardown of USBC SD Card Adapter - Plug Side"
-    url="/images/swd2usbc/SWD to USB-C_21.jpg"
+    url="https://alvarop.com/images/swd2usbc/SWD to USB-C_21.jpg"
 %}
 
 
@@ -290,7 +290,7 @@ It’s a mini PCB as expected. There were many more layers of tape/plastic/insul
     img="images/swd2usbc/SWD to USB-C_22.jpg" 
     title="USB-C Plug PCB to Cable Interface"
     caption="USB-C Plug PCB to Cable Interface"
-    url="/images/swd2usbc/SWD to USB-C_22.jpg"
+    url="https://alvarop.com/images/swd2usbc/SWD to USB-C_22.jpg"
 %}
 
 
@@ -314,7 +314,7 @@ Since manufacturing devices with USB-C plugs and/or custom cables is a pain, I d
     img="images/swd2usbc/SWD to USB-C_23.jpg" 
     title="SWD2USB-C Basic - Early Edition"
     caption="SWD2USB-C Basic - Early Edition"
-    url="/images/swd2usbc/SWD to USB-C_23.jpg"
+    url="https://alvarop.com/images/swd2usbc/SWD to USB-C_23.jpg"
 %}
 
 
@@ -324,7 +324,7 @@ This allows for a more robust (and less expensive) adapter board. Having said th
     img="images/swd2usbc/SWD to USB-C_24.jpg" 
     title="SWD2USBC Basic Actual Example"
     caption="SWD2USBC Basic Actual Example"
-    url="/images/swd2usbc/SWD to USB-C_24.jpg"
+    url="https://alvarop.com/images/swd2usbc/SWD to USB-C_24.jpg"
 %}
 
 
@@ -336,7 +336,7 @@ Below is the schematic for the final version:
     img="images/swd2usbc/SWD to USB-C_25.png" 
     title="Schematic Screenshot for v4.0"
     caption="Schematic Screenshot for v4.0"
-    url="/images/swd2usbc/SWD to USB-C_25.png"
+    url="https://alvarop.com/images/swd2usbc/SWD to USB-C_25.png"
 %}
 
 
@@ -346,7 +346,7 @@ And a photo (this is v4.0). All components are on the same side, further simplif
     img="images/swd2usbc/SWD to USB-C_26.jpg" 
     title="SWD2USBC v4.0"
     caption="SWD2USBC v4.0"
-    url="/images/swd2usbc/SWD to USB-C_26.jpg"
+    url="https://alvarop.com/images/swd2usbc/SWD to USB-C_26.jpg"
 %}
 
 ### Cable Crossover
@@ -361,7 +361,7 @@ Here's the table Matthias sent explaining the crossovers nicely (Note that **SBU
     img="images/swd2usbc/SWD to USB-C_27.png" 
     title="Cable Crossover Table Provided by Matthias"
     caption="Cable Crossover Table Provided by Matthias"
-    url="/images/swd2usbc/SWD to USB-C_27.png"
+    url="https://alvarop.com/images/swd2usbc/SWD to USB-C_27.png"
 %}
 
 
@@ -378,7 +378,7 @@ All of the files for this project can be found in the [swd2usbc Github Repo](htt
     img="images/swd2usbc/SWD to USB-C_28.jpg" 
     title="SWD2USBC and Sample Targets (Normal and Basic)"
     caption="SWD2USBC and Sample Targets (Normal and Basic)"
-    url="/images/swd2usbc/SWD to USB-C_28.jpg"
+    url="https://alvarop.com/images/swd2usbc/SWD to USB-C_28.jpg"
 %}
 
 
@@ -388,7 +388,7 @@ The examples consist of the following:
     img="images/swd2usbc/SWD to USB-C_29.png" 
     title="Renders of SWD2USBC v5.1"
     caption="Renders of SWD2USBC v5.1"
-    url="/images/swd2usbc/SWD to USB-C_29.png"
+    url="https://alvarop.com/images/swd2usbc/SWD to USB-C_29.png"
 %}
 
 
@@ -402,7 +402,7 @@ The ATTiny firmware doesn't do much. It reads the voltage on the **CC1**/**CC2**
     img="images/swd2usbc/SWD to USB-C_30.png" 
     title="Renders of SWD2USBC Basic v4.1"
     caption="Renders of SWD2USBC Basic v4.1"
-    url="/images/swd2usbc/SWD to USB-C_30.png"
+    url="https://alvarop.com/images/swd2usbc/SWD to USB-C_30.png"
 %}
 
 Simple adapter with no Debug Accessory Mode. Assumes target SWD lines wired up directly to TX1/2 as listed above. Requires USB3/Thunderbolt C to C cable to connect to target. Use this with the [Sample Target Basic](#Sample%20Target%20Basic).
@@ -412,7 +412,7 @@ Simple adapter with no Debug Accessory Mode. Assumes target SWD lines wired up d
     img="images/swd2usbc/SWD to USB-C_31.png" 
     title="Renders of Sample Target v1.1"
     caption="Renders of Sample Target v1.1"
-    url="/images/swd2usbc/SWD to USB-C_31.png"
+    url="https://alvarop.com/images/swd2usbc/SWD to USB-C_31.png"
 %}
 
 
@@ -430,7 +430,7 @@ The charge current is printed out over UART, but it is also displayed using the 
     img="images/swd2usbc/SWD to USB-C_32.png" 
     title="Renders of Sample Target (Basic) v1.1"
     caption="Renders of Sample Target (Basic) v1.1"
-    url="/images/swd2usbc/SWD to USB-C_32.png"
+    url="https://alvarop.com/images/swd2usbc/SWD to USB-C_32.png"
 %}
 
 
@@ -443,7 +443,7 @@ Simple adapter PCB to connect the AVRISP V2 connector to USB-C to program the AT
     img="images/swd2usbc/SWD to USB-C_33.jpg" 
     title="SWD2USBC ATTiny Programmer Adapter"
     caption="SWD2USBC ATTiny Programmer Adapter"
-    url="/images/swd2usbc/SWD to USB-C_33.jpg"
+    url="https://alvarop.com/images/swd2usbc/SWD to USB-C_33.jpg"
 %}
 
 
@@ -455,7 +455,7 @@ The extra wires you see are the CC-lines going to the RP2040's ADC's. I forgot t
     img="images/swd2usbc/SWD to USB-C_34.jpg" 
     title="SWD2USBC Sample Target Example"
     caption="SWD2USBC Sample Target Example"
-    url="/images/swd2usbc/SWD to USB-C_34.jpg"
+    url="https://alvarop.com/images/swd2usbc/SWD to USB-C_34.jpg"
 %}
 
 
@@ -466,7 +466,7 @@ Properly oriented connection.
     img="images/swd2usbc/SWD to USB-C_35.jpg" 
     title="SWD2USBC Properly Attached to Sample Target"
     caption="SWD2USBC Properly Attached to Sample Target"
-    url="/images/swd2usbc/SWD to USB-C_35.jpg"
+    url="https://alvarop.com/images/swd2usbc/SWD to USB-C_35.jpg"
 %}
 
 
@@ -475,7 +475,7 @@ Reversed connection (red/error LED lit up on SWD2USBC)
     img="images/swd2usbc/SWD to USB-C_36.jpg" 
     title="SWD2USBC Improperly Attached to Sample Target"
     caption="SWD2USBC Improperly Attached to Sample Target"
-    url="/images/swd2usbc/SWD to USB-C_36.jpg"
+    url="https://alvarop.com/images/swd2usbc/SWD to USB-C_36.jpg"
 %}
 
 
@@ -487,7 +487,7 @@ Here's a complete setup using a [Black Magic Probe](https://black-magic.org/) to
     img="images/swd2usbc/SWD to USB-C_37.jpg" 
     title="BlackMagic Probe Connected to Sample Target Over SWD2USB C"
     caption="BlackMagic Probe Connected to Sample Target Over SWD2USB C"
-    url="/images/swd2usbc/SWD to USB-C_37.jpg"
+    url="https://alvarop.com/images/swd2usbc/SWD to USB-C_37.jpg"
 %}
 
 
@@ -496,7 +496,7 @@ And the GDB session:
     img="images/swd2usbc/SWD to USB-C_38.png" 
     title="GDB Screenshot of Attached Target"
     caption="GDB Screenshot of Attached Target"
-    url="/images/swd2usbc/SWD to USB-C_38.png"
+    url="https://alvarop.com/images/swd2usbc/SWD to USB-C_38.png"
 %}
 
 # Conclusions

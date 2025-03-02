@@ -14,7 +14,7 @@ My trip began in Rochester, NY. I woke up early and finished packing. My housema
             img="images/blgr/s400/IMG_0010.JPG"
             title="The last bus and 777 in the background."
             caption="The last bus and 777 in the background."
-            url="/images/blgr/IMG_0010.JPG" %}
+            url="https://alvarop.com/images/blgr/IMG_0010.JPG" %}
 
 ### May 27th
 
@@ -32,7 +32,7 @@ I ran into some trouble when the bus ticket machine did not take my credit card.
             img="images/blgr/s400/IMG_1320_tonemapped.jpg"
             title="Near Aalto University"
             caption="Near Aalto University"
-            url="/images/blgr/IMG_1320_tonemapped.jpg" %}
+            url="https://alvarop.com/images/blgr/IMG_1320_tonemapped.jpg" %}
 
 ### May 28th
 

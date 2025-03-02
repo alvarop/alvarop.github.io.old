@@ -12,19 +12,19 @@ After getting the file, I decided to write a small python script to get some mor
             img="images/blgr/s640/daily.png"
             title="Total energy usage per day in kWh"
             caption="Total energy usage per day in kWh"
-            url="/images/blgr/daily.png" %}
+            url="https://alvarop.com/images/blgr/daily.png" %}
 
 {% include image.html
             img="images/blgr/s640/hourly.png"
             title=" usage in 15 minute increments from all of the days in the data set."
             caption=" usage in 15 minute increments from all of the days in the data set."
-            url="/images/blgr/hourly.png" %}
+            url="https://alvarop.com/images/blgr/hourly.png" %}
 
 {% include image.html
             img="images/blgr/s640/weekday.png"
             title=" usage per day of the week"
             caption=" usage per day of the week"
-            url="/images/blgr/weekday.png" %}
+            url="https://alvarop.com/images/blgr/weekday.png" %}
 
 From looking at this data, I use the most energy on Saturdays (Washer, dryer, more tv than usual, etc...). It also seems that I use the most energy from 7:30-7:45am. That's usually when I'm making breakfast and using the stove.
 

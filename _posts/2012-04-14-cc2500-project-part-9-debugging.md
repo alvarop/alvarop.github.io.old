@@ -13,7 +13,7 @@ I decided to begin testing the 2533 with the rgb led radio code. As you might ex
             img="images/wp/debug-11.png"
             title=""
             caption=""
-            url="/images/wp/debug-11.png" %}
+            url="https://alvarop.com/images/wp/debug-11.png" %}
 
 The first thing I noticed was that the separation between the address and data bytes was different between the devices (Circled in red). The 2452 had about 1.58 µs separation while the 2533 only had 0.5 µs. I looked in the cc2500 datasheet and realized that as long as that separation is greater than 55 ns, everything should work, which meant that was not the problem.
 
@@ -23,7 +23,7 @@ Another thing I noticed was that the 2533 misread some of the radio settings. Fo
             img="images/wp/debug-2.png"
             title=""
             caption=""
-            url="/images/wp/debug-2.png" %}
+            url="https://alvarop.com/images/wp/debug-2.png" %}
 
 The 2533 was starting the byte transmission half a clock-cycle too early! This also means that it is trying to sample incoming data at the wrong time (which is why some of the data reads were wrong). After digging around in datasheets and code, I found the source of the problem to be this line in the SPI configuration:
 

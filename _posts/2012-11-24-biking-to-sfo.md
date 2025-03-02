@@ -17,7 +17,7 @@ My flight was at 12:40 on Saturday. I decided to take the 8:14am train from Sunn
             img="images/wp/CIMG1026-640x480.jpg"
             title=""
             caption=""
-            url="/images/wp/CIMG1026.jpg" %}
+            url="https://alvarop.com/images/wp/CIMG1026.jpg" %}
 
 It took me about half an hour to get to the caltrain station. I didn't run into any problems on the way there.
 
@@ -25,7 +25,7 @@ It took me about half an hour to get to the caltrain station. I didn't run into 
             img="images/wp/IMG_0095.jpg"
             title=""
             caption=""
-            url="/images/wp/IMG_0095.jpg" %}
+            url="https://alvarop.com/images/wp/IMG_0095.jpg" %}
 
 The train was on time and the bike car was fairly empty.
 
@@ -33,7 +33,7 @@ The train was on time and the bike car was fairly empty.
             img="images/wp/IMG_0098-640x480.jpg"
             title=""
             caption=""
-            url="/images/wp/IMG_0098.jpg" %}
+            url="https://alvarop.com/images/wp/IMG_0098.jpg" %}
 
 I got off the train at the Millbrae station. There are two options to get to SFO from there. One is to take the BART, the second is to bike the rest of the way. Since I already had my bike, I decided to use it. It was just over 2 miles, so it took around 10 minutes(Which I assume is faster than taking the BART).
 
@@ -41,7 +41,7 @@ I got off the train at the Millbrae station. There are two options to get to SF
             img="images/wp/IMG_0100-640x480.jpg"
             title=""
             caption=""
-            url="/images/wp/IMG_0100.jpg" %}
+            url="https://alvarop.com/images/wp/IMG_0100.jpg" %}
 
 To get to the airport from the station, I took Millbrae Ave to S McDonnell Rd. Millbrae Ave was the only segment of the trip without a dedicated bike lane. Once I reached the airport, I registered my bike with the guy in the security booth (who had never done it before) and locked it away.
 
@@ -49,7 +49,7 @@ To get to the airport from the station, I took Millbrae Ave to S McDonnell Rd. M
             img="images/wp/IMG_0101-640x480.jpg"
             title=""
             caption=""
-            url="/images/wp/IMG_0101.jpg" %}
+            url="https://alvarop.com/images/wp/IMG_0101.jpg" %}
 
 So that was the trip there... Oh wait, I should warn anyone trying to do the same. If it happens to be raining, and your clothes are soaking wet, change before going through security! I always opt out of the TSA's full body scanners and get the enhanced pat down (fun!). After they pat you down, they scan the gloves they used on you for whatever it is they're looking for. Turns out, if the gloves are soaked, the machine doesn't like it, and you get an extra-special pat down and search. Luckily, I had plenty of time and the TSA agents were nice.
 
@@ -57,7 +57,7 @@ So that was the trip there... Oh wait, I should warn anyone trying to do the sam
             img="images/wp/IMG_0102-640x480.jpg"
             title=""
             caption=""
-            url="/images/wp/IMG_0102.jpg" %}
+            url="https://alvarop.com/images/wp/IMG_0102.jpg" %}
 
 ### Getting Back
 
@@ -67,7 +67,7 @@ I was slightly worried when the airport guy had never had anyone register a bike
             img="images/wp/IMG_0131-640x480.jpg"
             title=""
             caption=""
-            url="/images/wp/IMG_0131.jpg" %}
+            url="https://alvarop.com/images/wp/IMG_0131.jpg" %}
 
 I got back after dark, but I brought my bike lights so that wasn't a problem. The airport road was pretty well lit, so if you forget, you should be ok.
 
@@ -75,7 +75,7 @@ I got back after dark, but I brought my bike lights so that wasn't a problem. Th
             img="images/wp/IMG_0132-640x480.jpg"
             title=""
             caption=""
-            url="/images/wp/IMG_0132.jpg" %}
+            url="https://alvarop.com/images/wp/IMG_0132.jpg" %}
 
 The train was surprisingly full(after seeing the empty-ish station), but the bike car didn't have too many bikes.
 
@@ -83,7 +83,7 @@ The train was surprisingly full(after seeing the empty-ish station), but the bik
             img="images/wp/IMG_0133-640x480.jpg"
             title=""
             caption=""
-            url="/images/wp/IMG_0133.jpg" %}
+            url="https://alvarop.com/images/wp/IMG_0133.jpg" %}
 
 Since I flew across the country and didn't have much to eat, I did have to make an unscheduled stop for food.
 
@@ -91,6 +91,6 @@ Since I flew across the country and didn't have much to eat, I did have to make 
             img="images/wp/IMG_0134-640x480.jpg"
             title=""
             caption=""
-            url="/images/wp/IMG_0134.jpg" %}
+            url="https://alvarop.com/images/wp/IMG_0134.jpg" %}
 
 That's it, my experiment was successful! It is possible to get to SFO on your bike.

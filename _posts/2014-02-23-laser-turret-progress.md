@@ -48,7 +48,7 @@ Since I was still waiting for parts for the next iteration of the mechanical pla
             img="images/wp/targetFront.jpg"
             title="Target Front - Light sensor and blue LED"
             caption="Target Front - Light sensor and blue LED"
-            url="/images/wp/targetFront.jpg" %}
+            url="https://alvarop.com/images/wp/targetFront.jpg" %}
 
 Target Front - Light sensor and blue LED
 
@@ -58,7 +58,7 @@ After testing the light sensor, I decided to mount it on a perf board, along wit
             img="images/wp/target.jpg"
             title="Target"
             caption="Target"
-            url="/images/wp/target.jpg" %}
+            url="https://alvarop.com/images/wp/target.jpg" %}
 
 Target
 
@@ -73,6 +73,6 @@ That’s most of my progress so far. I’ve also been working on other mechanica
             img="images/wp/TargetSetup.jpg"
             title="Target setup for testing."
             caption="Target setup for testing."
-            url="/images/wp/TargetSetup.jpg" %}
+            url="https://alvarop.com/images/wp/TargetSetup.jpg" %}
 
 Target setup for testing.
